@@ -5,7 +5,7 @@ object-fit: cover;
 flex-direction: column;
 }
 .item{
-    background: rgb(0, 0, 255);
+    background: rgb(99, 154, 255);
     color: whitesmoke;
 }
 .Img{
