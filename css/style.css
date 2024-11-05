@@ -1,6 +1,6 @@
-/*.bg-img {
+.bg-img {
 width: 100vw;
-height: 20vh;
+height: 25vh;
 object-fit:cover;
 z-index: 1;
 }
@@ -9,6 +9,7 @@ z-index: 1;
     position: absolute;
 }
 .Img{
-height: 50px;
-width: 75px;
-}*/
+height: 150px;
+width: 250px;
+}
+
