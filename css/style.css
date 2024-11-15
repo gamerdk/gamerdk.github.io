@@ -12,4 +12,9 @@ z-index: 1;
 height: 150px;
 width: 250px;
 }
+.back_ground
+{
+    object-fit:contain;
+    width: 100vw;
+}
 
