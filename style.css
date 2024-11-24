@@ -12,3 +12,10 @@ z-index: 1;
     height: 300px;
     object-fit:contain;
     }
+.Image_Card{
+    width: 100%;
+    object-fit: fill;
+}
+.Text{
+    height: 5%;
+}
