@@ -12,7 +12,13 @@ z-index: 1;
     height: 300px;
     object-fit:contain;
     }
-.Image_Card{
+.Java_Logo{
+    width: 60%;
+    padding-left: 30%;
+}
+.Blender{
     width: 100%;
+}
+.fill{
     object-fit: fill;
 }
