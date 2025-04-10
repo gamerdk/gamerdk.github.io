@@ -1,1 +1,1 @@
-addFrontPage("bedrijfsinformatie");
+AddFrontPage("bedrijfsinformatie");

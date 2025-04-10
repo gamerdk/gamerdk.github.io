@@ -1,5 +1,15 @@
 .frond-page{
     height: 100vh;
-    background: linear-gradient(to top right, #0d6efd 30%, #2b245b 70%);
+    background: linear-gradient(to top right, #0d6efd 10%, #2b245b 60%);
     color:white;
+}
+button {
+    border-radius: 8px;
+    background: #2b245b;
+    color: white;
+    transition: 1s;
+}
+button:hover{
+    background: #0d6efd;
+    transition: 1s;
 }

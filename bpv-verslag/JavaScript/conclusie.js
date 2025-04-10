@@ -1,1 +1,1 @@
-addFrontPage("Conclusie");
+AddFrontPage("Conclusie");

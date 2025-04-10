@@ -1,2 +1,1 @@
-addFrontPage("Opdracht ChatBot");
-console.log("test")
+AddFrontPage("Opdracht ChatBot");

@@ -1,1 +1,1 @@
-addFrontPage("Opdracht Service desk");
+AddFrontPage("Opdracht Service desk");
