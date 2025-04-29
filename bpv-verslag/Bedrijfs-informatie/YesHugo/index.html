@@ -2,9 +2,8 @@
 <html lang="nl">
 
 <head>
-  <script src="../script.js"></script>
-  <script src="bedrijfs-informatie.js"></script>
-  <link rel="stylesheet" href="bedrijfs-informatie.css">
+  <script src="/script.js"></script>
+  <link rel="stylesheet" href="../bedrijfs-informatie.css">
 </head>
 
 <body>
@@ -47,10 +46,10 @@
       <h4>Foto's</h4>
 
       <div class="indent-1">
-        <img src="../Images/YesHugo-Logo.webp" alt="Dation-Logo">
+        <img src="/Images/YesHugo-Logo.webp" alt="Dation-Logo">
       </div>
     </div>
-    <div class="big   history bg-platform">
+    <div class="big history bg-platform">
       <H4>Geschiedenis</H4>
       <div class="indent-1 Dation artikel">
         <h5>YesHugo</h5>
@@ -65,9 +64,8 @@
     </div>
 
   </div>
-  <button class="m-4" onclick="GoBack()">Go Back</button>
+  <button class="m-4" onclick="ToPage('/Bedrijfs-informatie')">Go Back</button>
   <script>
-    GetReferrer();
     AddFrontPage("YesHugo");
     FillHead();
   </script>

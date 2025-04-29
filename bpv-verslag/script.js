@@ -1,14 +1,6 @@
-let lastReferrer;
-function GetReferrer() {
-    var referrer = document.referrer;
-    var domain = window.location.hostname;
-    if (referrer.includes(domain)) {
-        lastReferrer = referrer;
-    }
-}
 function AddFrontPage(pageType, extraHTML = "") {
     frontPageString = `
-    <img class="position-absolute end-0" id="logo" src="../Images/Curious-Logo.webp" alt="curious-inc logo"> 
+    <img class="position-absolute end-0" id="logo" src="/Images/Curious-Logo.webp" alt="curious-inc logo"> 
     <div class="frond-page d-flex align-items-center justify-content-center">
         <div class="row-cols text-center">
             <h1 class="col p-1">curious inc.</h1>
@@ -49,13 +41,6 @@ function FillHead() {
   `;
     const header = document.querySelector("head");
     header.innerHTML += head;
-}
-
-function GoBack() {
-    if(window.location.hostname)console.log(true)
-    if(lastReferrer) window.location.href = lastReferrer;
-    else window.location.href = '..\\index.html'
-    
 }
 function ToPage(pageUrl){
     window.location.href = pageUrl;

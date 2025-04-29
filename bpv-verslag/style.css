@@ -1,66 +1,86 @@
 /*
 MARK: elementen
 */
-img{
+img {
     display: block;
     padding: 20px;
     max-width: 100%;
     object-fit: contain;
 }
 
-a{
-    color:black;
+a {
+    color: black;
 }
 
 button {
-    border-radius: 8px;
+    border-radius: 10px;
     background: #2b245b;
     color: white;
+    box-shadow: 0 10px 20px rgba(43, 36, 91, 0.75);
     transition: 1s;
 }
 
-button:hover{
+button:hover {
     background: #0d6efd;
+    box-shadow: 0 10px 20px rgba(13, 110, 253, 0.6);
     transition: 1s;
 }
+
 /*
 MARK: base classes
 */
-.frond-page{
+.frond-page {
     height: 100vh;
     background: linear-gradient(to top right, #0d6efd 10%, #2b245b 60%);
-    color:white;
+    color: white;
 }
 
-.bg-platform{
+.bg-platform {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 20px;
     margin: 20px;
     padding: 10px;
 }
+/*
+MARK: grid
+*/
+.informatie-blokken {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
 
-.informatie-blokken{
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: auto auto; 
-    gap:10px;
+.small-top{
+    grid-row: 2 / span 1;
 }
+
 .small {
-    grid-row:1 / span 1;
-  }
-.big{
+    grid-row: 1 / span 1;
+    align-self: self-start;
+}
+
+.big {
     grid-row: 1 / span 3;
+    align-self: self-start;
 }
-.fill{
+
+.fill {
     grid-column: 1 / span 2;
+    align-self: self-start;
 }
+
+.vw-50 {
+    width: 50vw;
+}
+
 /*
 MARK: Logo
 */
-#logo{
-    max-width:5cm;
+#logo {
+    max-width: 5cm;
     max-height: 3cm;
     object-fit: contain;
     margin: 20px;
-    filter:invert();
+    filter: invert();
 }

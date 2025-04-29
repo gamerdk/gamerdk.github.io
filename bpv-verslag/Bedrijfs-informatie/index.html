@@ -3,7 +3,6 @@
 
 <head>
   <script src="../script.js"></script>
-  <script src="bedrijfs-informatie.js"></script>
   <link rel="stylesheet" href="bedrijfs-informatie.css">
 </head>
 
@@ -21,7 +20,7 @@
     <div class="small history bg-platform">
       <H4 class="text-center">Geschiedenis</H4>
       <p>
-        In 2006 is Hans Schaap met 2 compagnons begonnen met curious waarbij Dation het eerste product was.
+        In 2006 is Hans Schaap met 2 compagnons begonnen met <a href="https://curious-inc.com/">curious</a> waarbij Dation het eerste product was.
         Later kwamen YesHugo (toen onder een andere naam) en Connected-Green erbij en heeft Hans Schaap de 2 compagnons
         uitgekocht.
         In 2021 heeft curious vervolgens ISV overgekocht wegens de concurentie tussen Dation en Autofox.
@@ -55,7 +54,7 @@
             geaccepteerd of afgewezen met feedback door een 2e developer.</li>
           <li>Wanneer de pull-request is geaccepteerd is de feature klaar om op de demo aan het einde van de sprint te
             laten zien.</li>
-          <li>Na de Demo word de feature samen met andere features gereleased voor de gebruikers.</li>
+          <li>Na de Demo word de feature samen met andere nieuwe features en bug fixes gereleased voor de gebruikers.</li>
         </ol>
       </div>
     </div>
@@ -67,7 +66,7 @@
   </div>
   </div>
 
-  <button class="m-4" onclick="GoBack()">Go Back</button>
+  <button class="m-4" onclick="ToPage('/verslag')">Go Back</button>
   <script>
     pages = [
       "Dation",
@@ -75,9 +74,8 @@
       "YesHugo",
       "Connected-Green"
     ];
-    GetReferrer();
     AddFrontPage("bedrijfsinformatie");
-    AddContentsTable(pages, '\\Bedrijfs-informatie\\\\', 'class="m-3"');
+    AddContentsTable(pages, '/Bedrijfs-informatie/', 'class="m-3"');
     FillHead();
   </script>
 </body>

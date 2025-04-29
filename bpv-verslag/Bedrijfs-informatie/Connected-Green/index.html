@@ -2,9 +2,8 @@
 <html lang="nl">
 
 <head>
-  <script src="../script.js"></script>
-  <script src="bedrijfs-informatie.js"></script>
-  <link rel="stylesheet" href="bedrijfs-informatie.css">
+  <script src="/script.js"></script>
+  <link rel="stylesheet" href="../bedrijfs-informatie.css">
 </head>
 
 <body>
@@ -49,7 +48,7 @@
       <h4>Foto's</h4>
 
       <div class="indent-1">
-        <img class="fotos" src="../Images/ConnectedGreen-LOGO.webp" alt="Connected-Green Logo">
+        <img class="fotos" src="/Images/ConnectedGreen-LOGO.webp" alt="Connected-Green Logo">
       </div>
     </div>
     <div class="big history bg-platform">
@@ -78,9 +77,8 @@
     </div>
 
   </div>
-  <button class="m-4" onclick="GoBack()">Go Back</button>
+  <button class="m-4" onclick="ToPage('/Bedrijfs-informatie')">Go Back</button>
   <script>
-    GetReferrer();
     AddFrontPage("Connected-Green");
     FillHead();
   </script>

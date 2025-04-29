@@ -2,9 +2,8 @@
 <html lang="nl">
 
 <head>
-  <script src="../script.js"></script>
-  <script src="bedrijfs-informatie.js"></script>
-  <link rel="stylesheet" href="bedrijfs-informatie.css">
+  <script src="/script.js"></script>
+  <link rel="stylesheet" href="../bedrijfs-informatie.css">
 </head>
 
 <body>
@@ -37,12 +36,12 @@
       </div>
     </div>
     <div class="big Fotos bg-platform">
-        <h4>Foto's</h4>
-  
-        <div class="indent-1">
-          <img src="../Images/Dation-Logo.webp" alt="Dation-Logo">
-        </div>
+      <h4>Foto's</h4>
+
+      <div class="indent-1">
+        <img src="/Images/Dation-Logo.webp" alt="Dation-Logo">
       </div>
+    </div>
     <div class="big history bg-platform">
       <H4>Geschiedenis</H4>
       <div class="indent-1 Dation artikel">
@@ -56,16 +55,16 @@
     </div>
 
   </div>
-  <button class="m-4" onclick="GoBack()">Go Back</button>
+  <button class="m-4" onclick="ToPage('/Bedrijfs-informatie')">Go Back</button>
   <script>
-    GetReferrer();
     AddFrontPage("Dation");
-        FillHead();
-</script>
-<style>
-  .frond-page{
-    background: linear-gradient(to top right, #57289d 30%, #2b245b 70%);
-}
-</style>
+    FillHead();
+  </script>
+  <style>
+    .frond-page {
+      background: linear-gradient(to top right, #57289d 30%, #2b245b 70%);
+    }
+  </style>
 </body>
+
 </html>
