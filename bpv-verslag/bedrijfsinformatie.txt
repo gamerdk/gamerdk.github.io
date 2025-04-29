@@ -1,0 +1,5 @@
+wat ik mee maak is dat het proces bestaat uit de prodcut owner die stories maakt die word aangewezen aan de developers en dat moet dan die sprint afgemaakt worden, maar de service desk plaatst tussendoor ook stories. Dit zijn bugs die de klant tegen komt. Al deze stories staan in een jira bord. Vervolgens word er een storie gekozen/gepakt door de developer en werkt die daar aan. Zodra de storie klaar is word er een pull request verstuurd en kan de developer andere pull requests beoordelen en feedback geven of pakt een andere storie om er aan te gaan werken. Als de request word geaccepteerd word alles gesqashed en gemerged naar main. De developer pakt de volgende storie en gaat door in de loop van programeren en beoordelen tot aan het einde van de sprint. Een sprint is 2 weken lang en eindigd met de demo om 15:00 uur.
+
+
+
+het bedrijf is begonnen met Dation, Curious is het overkoepelende naam van het bedrijf

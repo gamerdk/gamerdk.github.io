@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="../script.js"></script>
+  <script src="bedrijfs-informatie.js"></script>
+  <link rel="stylesheet" href="bedrijfs-informatie.css">
+</head>
+
+<body>
+  <div class="base-page">
+  </div>
+  <div class="informatie-blokken d-grid">
+    <div class="small klanten bg-platform">
+      <h4 class="soort-klanten">soort klanten</h4>
+      <div class="indent-1">
+        <div class="lijst">
+          <ul>
+            <li>bedrijfen met (lease)auto's</li>
+            <li>rijscholen voor bijvoorbeeld track and trace</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="small-top bg-platform Producten">
+      <h4>Producten</h4>
+      <p>Bij Yeshugo kan je Software aanschaffen via pakketten.
+        Deze pakketten betaal je per voertuig per maand exclusief de Ecoboxen.
+      </p>
+      <div class="indent-1 Software">
+        <h5>Hardware</h5>
+        <ul>
+          <li>Ecoboxen</li>
+        </ul>
+      </div>
+      <div class="indent-1 Software">
+        <h5>Software</h5>
+        <ul>
+          <li>Track And Trace</li>
+          <li>Rittenregistratie</li>
+          <li>Rijgedraganalyse</li>
+          <li>Brandstof en onderhoud</li>
+        </ul>
+      </div>
+    </div>
+    <div class="big Fotos bg-platform">
+      <h4>Foto's</h4>
+
+      <div class="indent-1">
+        <img src="../Images/YesHugo-Logo.webp" alt="Dation-Logo">
+      </div>
+    </div>
+    <div class="big   history bg-platform">
+      <H4>Geschiedenis</H4>
+      <div class="indent-1 Dation artikel">
+        <h5>YesHugo</h5>
+        <p>
+          <a href="https://www.YesHugo.com/">
+            YesHugo
+          </a>
+          is ontstaan door een groep studenten met als doel het mooier maken van mobiliteit.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+  <button class="m-4" onclick="GoBack()">Go Back</button>
+  <script>
+    GetReferrer();
+    AddFrontPage("YesHugo");
+    FillHead();
+  </script>
+  <style>
+    .frond-page {
+      background: linear-gradient(to top right, #5abf92 20%, #2b245b 80%);
+    }
+  </style>
+</body>
+
+</html>

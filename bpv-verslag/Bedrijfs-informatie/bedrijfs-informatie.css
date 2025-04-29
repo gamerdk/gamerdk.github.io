@@ -1,0 +1,32 @@
+.organogram{
+    height: 90vh;
+}
+.organogram{
+    align-items: center;
+    max-width: 70vw;
+    max-height: 58vh;
+}
+.huidige-situatie{
+    display: flex;
+    flex-wrap: wrap;
+}
+.indent-1{
+    margin:0px 30px 0px;
+}
+.artikel{
+    border-bottom: 2px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+.w-33{
+    width:33vw;
+}
+.fotos{
+    max-width: 50%;
+}
+.w-50{
+    width:100;
+}
+.small-top{
+    grid-row: 2 / span 1;
+}

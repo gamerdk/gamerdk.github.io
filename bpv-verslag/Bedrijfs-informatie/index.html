@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="../script.js"></script>
+  <script src="bedrijfs-informatie.js"></script>
+  <link rel="stylesheet" href="bedrijfs-informatie.css">
+</head>
+
+<body>
+  <div class="base-page">
+  </div>
+  <div class="huidige-situatie d-flex justify-content-center flex-wrap ">
+    <img class="organogram bg-platform" src="../Images/Organogram_bedrijf.webp"
+      alt="organogram van producten van het bedrijf">
+    <img class="organogram bg-platform" src="../Images/Organogram_heb_ik_mee_te_maken.webp"
+      alt="organogram van de mensen waar ik mee te maken heb">
+    <p></p>
+  </div>
+  <div class="informatie-blokken d-grid">
+    <div class="small history bg-platform">
+      <H4 class="text-center">Geschiedenis</H4>
+      <p>
+        In 2006 is Hans Schaap met 2 compagnons begonnen met curious waarbij Dation het eerste product was.
+        Later kwamen YesHugo (toen onder een andere naam) en Connected-Green erbij en heeft Hans Schaap de 2 compagnons
+        uitgekocht.
+        In 2021 heeft curious vervolgens ISV overgekocht wegens de concurentie tussen Dation en Autofox.
+        In 2023/2024 is het hoofd kantoor van Hengelo naar Enschede verhuisd.
+      </p>
+    </div>
+
+    <div class="small px-5 product-informatie-paginas bg-platform text-center h-auto">
+      <h4 class="pb-5 text-center">Producten/Bedrijfen</h4>
+      <div class="contents-table d-flex flex-column"></div>
+    </div>
+
+    <div class="big producten bg-platform">
+      <h4 class="text-center">Producten</h4>
+
+      <div class="Ontwikkeling-proces indent-1">
+        <h5>Ontwikkeling proces</h5>
+        <h6>Hardware:</h6>
+        <ul>
+          kwaliteits controle: gebruiken en resultaten via software vergelijken.
+        </ul>
+        <h6>Sofware:</h6>
+        <ol>
+          <li>De klant communiceerd met de service desk met een probleem, suggestie of bug.</li>
+          <li>Als er een bug is word er door de service desk dat gemeld op de Jirabord van het product in questie</li>
+          <li>Als het niet een bug is en de klant loopt ergens tegenaan wat niet via de service-desk opgelost kan
+            worden. Word met de Head Service-Desk, Product owner en Hans Schaap overlegd over een feature.</li>
+          <li>Aan het begin van de sprint word de Jirabord gevuld met de User-Stories die aangewezen word aan een
+            developer.</li>
+          <li>Zodra de develper klaar is met de Storie komt de kwaliteits controle via een pull-request. Deze word
+            geaccepteerd of afgewezen met feedback door een 2e developer.</li>
+          <li>Wanneer de pull-request is geaccepteerd is de feature klaar om op de demo aan het einde van de sprint te
+            laten zien.</li>
+          <li>Na de Demo word de feature samen met andere features gereleased voor de gebruikers.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="fill bg-platform">
+      <h4 class="text-center">Foto's</h4>
+      <img src="../Images/kantoor-gebauw.webp" alt="test">
+    </div>
+  </div>
+  </div>
+
+  <button class="m-4" onclick="GoBack()">Go Back</button>
+  <script>
+    pages = [
+      "Dation",
+      "ISV",
+      "YesHugo",
+      "Connected-Green"
+    ];
+    GetReferrer();
+    AddFrontPage("bedrijfsinformatie");
+    AddContentsTable(pages, '\\Bedrijfs-informatie\\\\', 'class="m-3"');
+    FillHead();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="bpv-verslag.js"></script>
+  <script src="../script.js"></script>
+</head>
+
+<body>
+  <div class="base-page"></div>
+  <div class="d-flex justify-content-center">
+    <div class="row-cols text-center">
+      <h2 class="col">inleiding</h2>
+      <p class="col">Om te begginnen wil ik heel erg Curious bedanken. Ik heb echt heel veel geluk gehad met dit
+        bedrijf. Ik hoorde namelijk op het punt waar ik was geen stagebedrijf te vinden en tog gaven ze mij de
+        mogelijkheid om te groeien op gebieden dat ik op school minder/minder snel zou doen. Daarnaast gaf dit
+        mogelijkheid om meer duidelijkheid te geven.</p>
+    </div>
+  </div>
+  <div class="row-cols">
+    <h2 class="col text-center">inhoudsopgave</h2>
+    <div class="col contents-table d-flex justify-content-around ">
+    </div>
+  </div>
+  <h2 class="text-center">Slotwoord & Conclusie</h2>
+  <form class="d-flex justify-content-center" action="conclusie.html">
+    <button type="submit">Conclusie</button>
+  </form>
+  <script>
+    pages = [
+      "bedrijfs-informatie",
+      "chat-bot",
+      "service-desk"
+    ]
+  
+    AddFrontPage("BPV-Verslag", '<p class="col fs-4">6 maart t/m 20 juni</p>');
+    AddContentsTable(pages,'\\\\');
+    FillHead();
+    GetReferrer();    
+  </script>
+</body>
+
+</html>
