@@ -42,6 +42,29 @@ MARK: base classes
     margin: 20px;
     padding: 10px;
 }
+.fotos {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img img {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: contain;
+    display: block;
+    padding: 0 !important;
+}
 /*
 MARK: grid
 */
@@ -53,6 +76,7 @@ MARK: grid
 
 .small-top{
     grid-row: 2 / span 1;
+    align-self: self-start;
 }
 
 .small {
@@ -81,6 +105,6 @@ MARK: Logo
     max-width: 5cm;
     max-height: 3cm;
     object-fit: contain;
-    margin: 20px;
+    padding: 20px;
     filter: invert();
 }

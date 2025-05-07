@@ -10,26 +10,26 @@
   <div class="base-page">
   </div>
   <div class="huidige-situatie d-flex justify-content-center flex-wrap ">
-    <img class="organogram bg-platform" src="../Images/Organogram_bedrijf.webp"
+    <img class="organogram bg-platform" src="/Images/Organogram_bedrijf.webp"
       alt="organogram van producten van het bedrijf">
-    <img class="organogram bg-platform" src="../Images/Organogram_heb_ik_mee_te_maken.webp"
+    <img class="organogram bg-platform" src="/Images/Organogram_heb_ik_mee_te_maken.webp"
       alt="organogram van de mensen waar ik mee te maken heb">
-    <p></p>
   </div>
   <div class="informatie-blokken d-grid">
     <div class="small history bg-platform">
       <H4 class="text-center">Geschiedenis</H4>
       <p>
-        In 2006 is Hans Schaap met 2 compagnons begonnen met <a href="https://curious-inc.com/">curious</a> waarbij Dation het eerste product was.
-        Later kwamen YesHugo (toen onder een andere naam) en Connected-Green erbij en heeft Hans Schaap de 2 compagnons
-        uitgekocht.
-        In 2021 heeft curious vervolgens ISV overgekocht wegens de concurentie tussen Dation en Autofox.
-        In 2023/2024 is het hoofd kantoor van Hengelo naar Enschede verhuisd.
+        In 2006 is Hans Schaap met twee compagnons begonnen met Dation.
+        Later kwamen GreenStar (voorganger van YesHugo) en ConnectedGreen erbij en heeft Hans Schaap de twee compagnons
+        uitgekocht. Rond deze tijd is <a href="https://Curious-inc.com/">Curious</a> opgericht als een hoofdbedrijf.
+        In 2021 heeft Curious vervolgens ISV overgenomen vanwege de concurrentie tussen Dation en Autofox. Ook dat jaar
+        is GreenStar stopgezet, YesHugo opgericht en is ConnectedGreen door Curious overgenomen.
+        In 2023/2024 is het hoofdkantoor van Hengelo naar Enschede verhuisd.
       </p>
     </div>
 
     <div class="small px-5 product-informatie-paginas bg-platform text-center h-auto">
-      <h4 class="pb-5 text-center">Producten/Bedrijfen</h4>
+      <h4 class="pb-5 text-center">Producten/Bedrijven</h4>
       <div class="contents-table d-flex flex-column"></div>
     </div>
 
@@ -37,31 +37,33 @@
       <h4 class="text-center">Producten</h4>
 
       <div class="Ontwikkeling-proces indent-1">
-        <h5>Ontwikkeling proces</h5>
+        <h5>Ontwikkelproces</h5>
         <h6>Hardware:</h6>
         <ul>
-          kwaliteits controle: gebruiken en resultaten via software vergelijken.
+          kwaliteitcontrole: gebruiken en resultaten via software vergelijken.
         </ul>
-        <h6>Sofware:</h6>
+        <h6>Software:</h6>
         <ol>
-          <li>De klant communiceerd met de service desk met een probleem, suggestie of bug.</li>
-          <li>Als er een bug is word er door de service desk dat gemeld op de Jirabord van het product in questie</li>
-          <li>Als het niet een bug is en de klant loopt ergens tegenaan wat niet via de service-desk opgelost kan
-            worden. Word met de Head Service-Desk, Product owner en Hans Schaap overlegd over een feature.</li>
-          <li>Aan het begin van de sprint word de Jirabord gevuld met de User-Stories die aangewezen word aan een
+          <li>De klant communiceert met de service desk over een probleem, suggestie of bug.</li>
+          <li>Als het een bug is wordt er door de service desk die gemeld op het Jirabord van het product in kwestie</li>
+          <li>Als het geen bug is en de klant loopt ergens tegenaan wat niet via de service-desk opgelost kan
+            worden. Wordt met de Head Service-Desk, Product owner en Hans Schaap overlegd over een feature.</li>
+          <li>Aan het begin van de sprint wordt het Jirabord gevuld met de User-Stories die aangewezen wordt aan een
             developer.</li>
-          <li>Zodra de develper klaar is met de Storie komt de kwaliteits controle via een pull-request. Deze word
+          <li>Zodra de developer klaar is met de Storie komt de kwaliteits controle via een pull-request. Deze wordt
             geaccepteerd of afgewezen met feedback door een 2e developer.</li>
           <li>Wanneer de pull-request is geaccepteerd is de feature klaar om op de demo aan het einde van de sprint te
             laten zien.</li>
-          <li>Na de Demo word de feature samen met andere nieuwe features en bug fixes gereleased voor de gebruikers.</li>
+          <li>Na de Demo wordt de feature samen met andere nieuwe features en bug fixes gereleased voor de gebruikers.
+          </li>
         </ol>
       </div>
     </div>
 
     <div class="fill bg-platform">
       <h4 class="text-center">Foto's</h4>
-      <img src="../Images/kantoor-gebauw.webp" alt="test">
+      <img src="/Images/TijdLijn.webp" alt="tijdlijn">
+      <img src="/Images/kantoor-gebauw.webp" alt="test">
     </div>
   </div>
   </div>
@@ -72,7 +74,7 @@
       "Dation",
       "ISV",
       "YesHugo",
-      "Connected-Green"
+      "ConnectedGreen"
     ];
     AddFrontPage("bedrijfsinformatie");
     AddContentsTable(pages, '/Bedrijfs-informatie/', 'class="m-3"');

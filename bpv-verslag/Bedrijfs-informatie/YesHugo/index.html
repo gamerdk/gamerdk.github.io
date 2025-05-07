@@ -10,18 +10,18 @@
   <div class="base-page">
   </div>
   <div class="informatie-blokken d-grid">
-    <div class="small klanten bg-platform">
+    <div class="small-top klanten bg-platform">
       <h4 class="soort-klanten">soort klanten</h4>
       <div class="indent-1">
         <div class="lijst">
           <ul>
-            <li>bedrijfen met (lease)auto's</li>
-            <li>rijscholen voor bijvoorbeeld track and trace</li>
+            <li>Bedrijfen met (lease)auto's</li>
+            <li>Rijscholen voor bijvoorbeeld track and trace</li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="small-top bg-platform Producten">
+    <div class="small bg-platform Producten">
       <h4>Producten</h4>
       <p>Bij Yeshugo kan je Software aanschaffen via pakketten.
         Deze pakketten betaal je per voertuig per maand exclusief de Ecoboxen.
@@ -42,29 +42,43 @@
         </ul>
       </div>
     </div>
-    <div class="big Fotos bg-platform">
+    <div class="big fotos bg-platform">
       <h4>Foto's</h4>
 
       <div class="indent-1">
         <img src="/Images/YesHugo-Logo.webp" alt="Dation-Logo">
       </div>
     </div>
-    <div class="big history bg-platform">
+    <div class="small history bg-platform">
       <H4>Geschiedenis</H4>
-      <div class="indent-1 Dation artikel">
+      <div class="indent-1 YesHugo artikel">
         <h5>YesHugo</h5>
         <p>
+          In 2021 is
           <a href="https://www.YesHugo.com/">
             YesHugo
           </a>
-          is ontstaan door een groep studenten met als doel het mooier maken van mobiliteit.
+          ontstaan uit GreenStar. YesHugo heeft veel producten overgenomen van GreenStar, maar heeft de focus vooral op
+          rittenregistratie voor bedrijven met (lease)auto's.
         </p>
       </div>
-
+      <div class="indent-1 GreenStar artikel">
+        <h5>GreenStar</h5>
+        <p>
+          GreenStar is opgericht in 2010 om rijgedrag te analyseren zodat er gekeken kon worden hoe de klant zijn
+          rijgedrag kon aanpassen met als doel de CO₂-uitstoot te verminderen. In 2021 is GreenStar stopgezet en
+          overgegaan naar YesHugo.
+        </p>
+      </div>
+    </div>
+    <div class="small-top bg-platform video">
+      <video autoplay="1" controls="1" loop="1" muted="0" class="mw-100">
+        <source type="video/mp4" src="https://yeshugo.com/wp-content/uploads/2021/05/rittenregistratieloopZoom.mp4">
+      </video>
     </div>
 
   </div>
-  <button class="m-4" onclick="ToPage('/Bedrijfs-informatie')">Go Back</button>
+  <button class="m-4" onclick="ToPage('/Bedrijfs-informatie')">Terug naar vorrige pagina</button>
   <script>
     AddFrontPage("YesHugo");
     FillHead();

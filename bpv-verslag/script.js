@@ -3,7 +3,7 @@ function AddFrontPage(pageType, extraHTML = "") {
     <img class="position-absolute end-0" id="logo" src="/Images/Curious-Logo.webp" alt="curious-inc logo"> 
     <div class="frond-page d-flex align-items-center justify-content-center">
         <div class="row-cols text-center">
-            <h1 class="col p-1">curious inc.</h1>
+            <h1 class="col p-1">Curious inc.</h1>
             <h1 class="col fs-2 p-1">Daniël Kosters</h2>
             <p class="col fs-4 pt-1">${pageType}</p>
             ${extraHTML}
