@@ -42,6 +42,7 @@ function FillHead() {
     const header = document.querySelector("head");
     header.innerHTML += head;
 }
-function ToPage(pageUrl){
+
+function ToPage(pageUrl) {
     window.location.href = pageUrl;
 }

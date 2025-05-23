@@ -2,16 +2,48 @@
 <html lang="nl">
 
 <head>
-  <script src="/bpv-verslag/script.js"></script>
+  
 </head>
 
 <body>
   <div class="base-page"></div>
+</div>
+<div class="bg-platform">
+  <h2 class="text-center">inleiding</h2>
+  <p>Bpv-taak-1 is het verbeteren van de Chat-bot. Ik krijg hier dus al een product geleverd waar de klant al een
+    duidelijke visie heeft en ik op ga bouwen. Dit en aangezien het project 1 a 2 jaar geleden al is begonnen,
+    waarbij het project ongeveer 1 jaar stil heeft gelegen. Maakt het lastig om alle vases langs te gaan. Tog heb ik
+    mijn best gedaan om als nog alle vases als nog langs te lopen ook al kwam ik tot de realisatie hoe ik dat het
+    beste kon doen nadat ik een prototype heb gemaakt van de chatbot. Ook realiseer ik mij nu dat ik hier onbewust
+    aan heb gewerkt.</p>
+  </div>
+  <div class="d-flex bg-platform verslag-menu">
+    
+  </div>
+  <div class="d-flex flex-wrap justify-content-center bpv-taak">
+  </div>
   <button class="m-4" onclick="ToPage('/bpv-verslag/verslag')">Terug naar vorige pagina</button>
-  <script>
-    AddFrontPage("Opdracht ChatBot");
-    FillHead();
-  </script>
 </body>
+
+<script src="/bpv-verslag/script.js"></script>
+<script src="/bpv-verslag/taken.js"></script>
+<script>
+  const bestanden = ["chatbot.txt","AIC-2.txt","AIC-3.txt","AIC-4.txt","AIC-5.txt","AIC-6.txt","AIC-7.txt","AIC-8.txt","AIC-9.txt","AIC-10.txt"];
+  const bestandLocatie = "/bpv-verslag/txtBestanden/";
+  let producten = [];
+  let urls = [];
+  let index = 0;
+
+  FillHead();
+  AddFrontPage("Opdracht ChatBot");
+  for(bestand of bestanden){
+    urls.push(bestandLocatie + bestand);
+    producten.push(bestand.replace(".txt", ""))
+    index++;
+  }
+ 
+  CreateArticels(urls);
+  CreateButtons(producten);
+</script>
 
 </html>
