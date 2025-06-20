@@ -1,0 +1,57 @@
+Definitiefase※
+AIC-3 is een bug fix die zorgt dat de applicatie niet crasht bij het openen van tickets zonder tijd erin.
+De klant zou graag willen dat alle tickets kunnen ingeladen worden.
+Het gaat hier om de telefoon gesprekken en e-mails die niet ingeladen kunnen worden.
+Op dit moment kan je alleen chatberichten inladen.
+
+$Voorbereidingsfase※
+In de originele documentatie van de fase had ik waarschijnlijk gedacht dat ik een half uur nodig had om dit uit te werken.
+Dit komt omdat ik een prototype een werkende bug fix heb,
+maar in de huidige versie staat dat ik denk minimaal drie uur bezig te zijn.
+Dit is vooral omdat ik geen voorbeeld heb voor deze manier van de bug fix.
+Ik moet de gehele logica vanaf zo goed als nul opbouwen en onderzoek doen naar de vereisde URL.
+Ik ga verder op deze fase in tijdens de Evaluatiefase.
+
+$Keuzefase※
+Dit is een zeer simpele en de discussie gaat dan snel over code technische gedeelte.
+De discussie is dan ook niet met de klant, maar met Sander.
+
+Ik heb in de prototype van de chatbot de bug verholpen op basis van een try expect systeem,
+maar dat is niet iets wat het bedrijf graag ziet en gebruikt.
+Die hebben liever dat de informatie uit de tickets zelf gehaald worden of extra informatie uit de URL.
+
+Ik ben weer bang dat we dan makkelijk in de problemen komen met wetten zoals de AVG.
+Uiteindelijk hebben we gekozen voor de extra informatie ophalen.
+
+Mijn zorgen waren nu ik dit schrijf niet nodig voor dit onderdeel.
+En heb dus besloten om het idee van Sander toe te passen.
+
+
+$Evaluatiefase※
+Ik heb meerdere fouten gemaakt.
+Om te beginnen heb ik veel langer aan gewerkt dan origineel ingeschat,
+namelijk een periode van 3 weken waar ik af en toe wat doe en heel erg heen en weer gaat met de pull request tussen Sander en ik.
+
+De meest overduidelijke is de volgorde dat ik ben doorgaan.
+Aangezien de wens van de klant Arjan heel duidelijk was,
+namelijk alle soorten tickets in kunnen laden.
+Hierdoor sloeg ik de Keuzefase eigenlijk onbewust over.
+
+Deze fout resulteerde in vooral miscommunicatie met Sander.
+Deze miscommunicatie ging ook nog eens heel erg gepaard met het leerdoel minder defensief reageren op feedback.
+Wat echt iets was om aan te werken op dat moment.
+
+Daarnaast wou Sander dat de volledige conversatie opgehaald werd.
+Ik zat daar dus aan te werken met onder andere de gedachte dat Sander technisch gezien ook de klant was.
+Dit komt aangezien ik de chatbot voor dit bedrijf maak en het word alleen binnen dit bedrijf gebruikt.
+Na een gesprek met Arjan waar deze verwarring werd opgehelderd heb ik er voor gekozen alleen de naam van de persoon die de ticket heeft aangemaakt en de type ticket als extra informatie op te halen.
+
+De laatste fout dat ik heb gemaakt is dat ik niet alle fases fatsoenlijk gedocumenteerd.
+Ik heb namelijk eerst wat gedocumenteerd voordat ik begon met uitwerken.
+Later toen ik meer met Sander begon te praten heb ik waarschijnlijk gedacht dat ik toen pas de Voorbereidingsfase door ging.
+Ik weet niet zeker wat er heeft gestaan,
+maar weet wel dat het niet het origineel was.
+Nu ik dit schrijf en op terug kijk was dat niet handig en doe ik mijn best op een logische manier het orginele gedachte gang na te gaan.
+
+Op het moment dat ik dit schrijf moet ik zeggen dat deze bug fix resulteerde in een gedachte gang wat AIC-10 is geworden.
+Mijn zorgen over de naleving van de AVG bleken terecht, maar op een ander vlak.

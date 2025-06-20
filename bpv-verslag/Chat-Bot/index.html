@@ -2,25 +2,35 @@
 <html lang="nl">
 
 <head>
-  
+  <meta charset="UTF-8">
 </head>
 
 <body>
   <div class="base-page"></div>
-</div>
-<div class="bg-platform">
-  <h2 class="text-center">inleiding</h2>
-  <p>Bpv-taak-1 is het verbeteren van de Chat-bot. Ik krijg hier dus al een product geleverd waar de klant al een
-    duidelijke visie heeft en ik op ga bouwen. Dit en aangezien het project 1 a 2 jaar geleden al is begonnen,
-    waarbij het project ongeveer 1 jaar stil heeft gelegen. Maakt het lastig om alle vases langs te gaan. Tog heb ik
-    mijn best gedaan om als nog alle vases als nog langs te lopen ook al kwam ik tot de realisatie hoe ik dat het
-    beste kon doen nadat ik een prototype heb gemaakt van de chatbot. Ook realiseer ik mij nu dat ik hier onbewust
-    aan heb gewerkt.</p>
+  </div>
+  <div class="bg-platform">
+    <h2 class="text-center">inleiding</h2>
+    <p>BPV-taak-1 is het verbeteren van de Chat-bot. Ik krijg hier een product geleverd waar de klant al een duidelijke
+      visie heeft. Dit product moet ik dan verbeteren, maar door de visie en aangezien dit project ongeveer twee jaar
+      geleden is begonnen. Leek het mij lastig in de eerste maanden om alle fases langs te gaan. Ik heb toen mijn best gedaan om
+      als nog alle fases langs te lopen. Daarbij wil ik wel vermelden dat ik later realiseerde hoe ik dat beter kon
+      doen. Hierdoor heb ik onbewust uitgebreider gedocumenteerd dan origineel gedacht. Door het idee dat ik niet alle
+      fases door ging lopen probeerde ik die bij de meeste story's alsnog te doorlopen. Gedurende dit proces kwam ik af
+      en toe terug op een fase zonder dat direct te realiseren. Om al die redenen kan je afwijkingen tegenkomen in dit
+      verslag. Er zijn een paar afwijkingen met een andere oorzaak. Die afwijkingen bestaan in het algemeen uit het niet
+      noteren van onder andere de keuzefase. Dit gebeurd als die eerder al is behandeld of niet langs is gegaan. Het
+      niet langs gaan van die fase werd vooral gedaan wanneer de story niet van de klant komt. De Ontwerpfase word ook
+      niet genoteerd als dat eerder al is gedaan, maar ook als de story en suggesties voor dat onderdeel duidelijk genoeg is wat maakt dat dit overbodig is. Alle andere
+      fases worden niet genoteerd als de inhoud eerder is besproken en ook weinig verschil is met andere stories. Ik wil
+      hierbij wel vermelden dat uitvoering fase vaak niet word genoteerd. Ik ben deze wel langs gegaan, maar wat ik dan
+      doe word in andere fases besproken. Het laatste wat je in dit verslag tegen kan komen is dat ik fases samen voeg.
+      Dit word gedaan als de fases los van elkaar ontzettend weinig inhoud hebben of als die fases elkaar zo erg
+      versterken dat ik niet weet hoe ik die los van elkaar kan noteren. </p>
   </div>
   <div class="d-flex bg-platform verslag-menu">
-    
+
   </div>
-  <div class="d-flex flex-wrap justify-content-center bpv-taak">
+  <div class="d-flex flex-wrap justify-content-center tekst-vak">
   </div>
   <button class="m-4" onclick="ToPage('/bpv-verslag/verslag')">Terug naar vorige pagina</button>
 </body>
@@ -28,22 +38,12 @@
 <script src="/bpv-verslag/script.js"></script>
 <script src="/bpv-verslag/taken.js"></script>
 <script>
-  const bestanden = ["chatbot.txt","AIC-2.txt","AIC-3.txt","AIC-4.txt","AIC-5.txt","AIC-6.txt","AIC-7.txt","AIC-8.txt","AIC-9.txt","AIC-10.txt"];
-  const bestandLocatie = "/bpv-verslag/txtBestanden/";
-  let producten = [];
-  let urls = [];
-  let index = 0;
+  const bestanden = ["chatbot", "AIC-2", "AIC-3", "AIC-4", "AIC-5", "AIC-6", "AIC-7", "AIC-8", "AIC-9", "AIC-10", "AIC-13"];
 
   FillHead();
   AddFrontPage("Opdracht ChatBot");
-  for(bestand of bestanden){
-    urls.push(bestandLocatie + bestand);
-    producten.push(bestand.replace(".txt", ""))
-    index++;
-  }
- 
-  CreateArticels(urls);
-  CreateButtons(producten);
+  CreateButtons(bestanden);
+  LoadArticels('chatbot');
 </script>
 
 </html>

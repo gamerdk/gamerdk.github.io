@@ -1,0 +1,45 @@
+Definitiefase※
+AIC-6 is een taak van AIC-2.
+In deze taak wordt het mogelijk gemaakt dat de chatbot kennisbankartikelen uit Freshdesk ophaalt.
+Tijdens de beginfase van het project viel het op dat er een lokale versie van de kennisbank bestond.
+Deze lokale versie werd niet bijgewerkt met de nieuwste versie van de kennisbank.
+Tijdens de Keuzefase en de Ontwerpfase van de chatbot voor dat deze story is aangemaakt is ook deze taak besproken.
+Vandaar dat die hier niet is en word het resultaat eruit ook hier genoteerd.
+
+We kwamen hier vooral achter door de wens van de klant die niet alleen antwoorden wou hebben die gelden voor de Dation omgeving, maar ook voor de Autofox omgeving.
+Het is namelijk zo dat als je een ticket van Autofox in ging laden dat de kennisbank van Dation werd gebruikt.
+Terwijl dit twee verschillende producten zijn van Curious Inc.
+
+Tijdens de Ontwerpfase realiseerden ik samen met Arjan ook dat het inladen van de kennisbank tot wel vijf minuten kon duren.
+De klant wil niet dat voor elke vraag vijf minuten moet wachten.
+Dus de laatste wens is dan ook dat de gebruiker zo min mogelijk merkt van het inladen van de kennisbank artikelen.
+
+Deze wensen wil ik uitvoeren door alle kennisbankartikelen ochtends vroeg om acht uur in te laden en over de verschillende producten te verdelen.
+Hierdoor heeft de gebruiker zo min mogelijk last van het inladen wat langer duurt in theorie,
+maar is wel nauwkeuriger en tijdens het inladen van de tickets in theorie in slechts seconden.
+
+$Voorbereidingsfase※
+Ik verwacht dat ik de feature werkende heb met één uur.
+Dit baseer ik op de gedachte gang dat ik een deel van de code van de prototype gebruik.
+Ik moet dan natuurlijk wel een paar aanpassingen maken,
+maar ik heb dan het dan in theorie werkende.
+Dit betekend nog niet dat ik het bug vrij heb.
+
+$Presentatiefase※
+Deze taak is lastig te presenteren.
+Het is mogelijk, maar dan moet ik tijdens een demo een manier hebben om op de online chatbot het visueel te maken.
+Ik heb dan liever ook niet dat er tijdelijke manier is gepubliceerd puur om te demonstreren dat de chatbot kennisbank artikelen op kan halen.
+Daarnaast wil het bedrijf denk ik dat ook niet hebben.
+Het is dan denk ik ook verstandiger dit samen met AIC-2 te presenteren.
+Dan kunnen andere taken die de resultaat van deze taak nodig hebben het visueel maken als bewijs dat het word opgehaald.
+
+$Evaluatiefase※
+Deze taak heb ik weer onderschat.
+Ik heb drie en een half uur bezig geweest om de taak werkende te krijgen wat die maandag ochtend was dat ik er aan werkte.
+Later ben ik met Sander over en weer gegaan via de pull request en heb het de vrijdag die zelfde week afgerond.
+
+Er is uiteindelijk in de functionaliteit niet veel afwijkingen gekomen.
+De enigste afwijking heeft ook tot een aanpassing in de data structuur gemaakt.
+Sander wou liever niet dat de applicatie bepaalde informatie ging verkrijgen door de chatbot systematisch alle combinaties te laten testen.
+Achteraf begrijp ik dat wel.
+Om die reden werd er meer informatie opgehaald die werden opgeslagen op een logische manier.

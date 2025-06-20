@@ -1,0 +1,42 @@
+Definitiefase※
+AIC-2 is de Kennisbank artikelen integreren in antwoorden van de chatbot.
+Dus de chatbot moet informatie uit de kennis bank kunnen halen,
+maar gebruikt dat niet echt in de antwoorden.
+Na wat onderzoek tijdens de Ontwerpfase en Keuzefase van de chatbot.
+Komen we dan ook achter dat de kennisbank artikelen deels uitgeschreven zijn in een document.
+Hier haalt de chatbot de informatie uit.
+De klant wil graag dat de chatbot de artikelen direct uit een zeer recente versie van de kennisbank gebruikt.
+Verder zou de klant meer input willen hebben op welke artikelen gebruikt worden.
+Het liefst is de input in de vorm van het selecteren van de artikelen die relevant zijn.
+De artikelen die hij kan selecteren bestaat uit een groep artikelen waarvan de chatbot denkt dat die relevant zijn.
+Tot slot zou de klant graag willen zien dat de klanten van de klant een reverentie in de vorm van een URL naar de artikelen krijgt.
+
+$Voorbereidings/Uitvoeringsfase※
+Aangezien deze story zo groot is wil ik hem verdelen over verschillende kleinere taken.
+Daarnaast ga ik niet alleen deze taak uitvoeren.
+Op dit punt weet ik dat Sander mij een paar taken heeft gegeven.
+Die taken ga ik dus tussendoor uitvoeren. 
+
+Aangezien deze story de belangrijkste reden is dat er aan de chatbot gewerkt word.
+Verwacht ik dat ik na één tot twee maanden klaar ben als ik de andere taken tussendoor uitvoer.
+Dat betekend dat AIC-3 en AIC-4 worden uitgevoerd samen met het mogelijk maken om de artikelen van de online kennisbank op te halen.
+Daarnaast moet de gebruiker input kunnen hebben op de antwoorden door artikelen te kunnen selecteren en de tags de relevantie van een artikel laten bepalen.
+Tot slot moet de URL die naar de gebruikte kennisbank artikel verwijst in het antwoord zitten.
+
+$Evaluatiefase※
+Ik heb mij behoorlijk aan het plan gehouden op het eerste gezicht.
+Deze story is verdeeld over de taken AIC-6, AIC-8 en AIC-9.
+Ik heb binnen die taken wel een paar afwijkingen,
+maar ik ga in die taken er dieper op in.
+Ik ben uiteindelijk later begonnen met deze taak uitvoeren in plaats van het tegelijkertijd uitvoeren.
+Ik weet dat je niet iets tegelijkertijd kan doen,
+maar wel dagdeel 1 met story 1 en dagdeel 2 met story 3 bijvoorbeeld,
+maar aangezien er een bug was die zorgt dat het lastig is om de applicatie te testen op een later punt en op dit punt zorgt dat de chatbot niet fatsoenlijk gebruikt kan worden.
+Had die prioriteit samen met de structuur van de code op de schop om makkelijker te kunnen debuggen en overzichtelijker werd.
+Het heeft wel heel erg geholpen om die twee story's eerst uit te werken.
+De overige taken die er tussendoor kwamen waren verzoeken van de klant die simpel waren om toe te passen.
+Door dit soort kleine features die er tussendoor kwamen kon ik ook regelmatig iets leveren aan de klant.
+Ik merkte dat de klant dat prettig vond aangezien die dan wist waar ik mee bezig ben geweest.
+Aangezien deze taak toch zo groot was dat ik anders meerdere Demo's niets kon laten zien.
+Achteraf toen ik de originele evaluatie had geschreven kwam ik helaas tot de realisatie dat door deze en een andere story behoorlijk wat bug fix story's moesten komen wat wel weer jammer was.
+Die bug fix story's kon ik met ongeveer een week af krijgen.

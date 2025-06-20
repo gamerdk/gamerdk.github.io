@@ -1,0 +1,40 @@
+Oriëntatiefase + Definitiefase※
+AIC-10 moet bepaalde gegevens in berichten censureren zodat OpenAI daar niets mee kan doen.
+Deze story kwam ik op en heb ik gesuggereerd na een aantal story's die zorgen bij mij opwekten.
+Ik ben er bij de klant gekomen en die vind het prima,
+maar die wil ook dat mijn zorgen met Sander verder werden besproken.
+
+Het is namelijk zo dat de applicatie berichten naar derden stuurt zodat die een resultaat terug stuurt die de chatbot gebruikt.
+Op dit moment worden alleen telefoon gesprekken de telefoon nummers gecensureerd,
+maar die kunnen ook in mails terecht komen en chatberichten samen met E-mail adressen.
+Verder worden er ook tickets gemaakt die niet een chatbericht of E-mail is en gevoelige informatie bevatten.
+Om die reden wil ik de gebruiker limiteren tot alleen de type berichten in te kunnen laden waar de vraag van hun klanten in zitten.
+Op die manier kan er niet per ongelijk gevoelige informatie van bijvoorbeeld het bedrijf bij OpenAI terecht komen door onder andere type fouten.
+
+
+$Voorbereidingsfase※
+Ik heb wat onderzoek gedaan naar regex.
+Dit word ook de primaire manier om stukken teksten te cesuren.
+Daarnaast heb ik in een andere story of taak al telefoon gesprekken gecensureerd.
+Ik hoef alleen die logica verplaatsen en uitbreiden.
+Daarnaast hoef ik ook alleen maar een firewall voor de type tickets te maken.
+Dit allemaal maakt dat ik denk met één dagdeel klaar te zijn.
+Daarna kan ik het Sander laten controleren wat maakt dat ik denk met één tot ander halve dag klaar te zijn.
+
+$Evaluatiefase※
+De uren calculaties waren behoorlijk accuraat voor deze story.
+Ik was in totaal minder dan één dag bezig voor dat ik hem publiceerde.
+En een tijdje nadat ik de story als af verklaarde dacht ik dat het enigste wat anders was is de error bericht van de firewall,
+maar nu ik dit schrijf zijn er meerdere bugs opgedoken van deze en ook andere story's die ik eerder als af verklaarde.
+Dat resulteerde tot ongeveer elf bug fix story's waarvan deze story er twee aan heeft bijgedragen.
+Het is namelijk zo dat achteraf de regex voor telefoon nummers niet robuust genoeg was,
+dus dat is verbeterd.
+Daarnaast lied de firewall niet alleen de bestellingen met gevoelige informatie tegen,
+maar ook een aantal mails die op een andere manier zijn gemaakt met de zelfde source als die bestellingen.
+Ook kwam ik tot de realisatie dat adressen mee gegeven worden.
+Hier is aan gewerkt in een censuur update story.
+Ik verwacht nu ook dat ik iets over het hooft heb gezien,
+maar weet tot op het punt dat ik dit schrijf nog steeds niet wat.
+Daarnaast is het bedrijf van plan om een Europees AI te gebruiken in plaats van OpenAI.
+Hier ben ik wel blij mee aangezien de gevoelige informatie die alsnog door de censuur heen komen niet bij de verkeerde personen terecht komen of misbruikt worden.
+Natuurlijk is de kans dat het ook met een Europees AI dat mogelijk, maar die kans zit er minder in dan een Chinees of een Amerikaans AI.

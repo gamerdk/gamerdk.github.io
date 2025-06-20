@@ -1,0 +1,84 @@
+Definitiefase※
+Met de vorige taak werd het onderdeel eruit gesloopt dat teksten en daarbij antwoorden genereerde.
+Dit was nodig om onder andere de gebruiker de keuze te geven welke artikelen geselecteerd kunnen worden.
+
+In AIC-9 gaan we het weer mogelijk maken dat de chatbot antwoorden genereert.
+Dit moet dan zo gebeuren dat die met AIC-8 overweg kan.
+Het is namelijk zo dat deze taak het mogelijk maakt om de gekozen artikelen van de gebruiker terug kan vinden en die vervolgens gebruikt in de antwoorden.
+
+Verder zou de klant graag willen dat de antwoorden linkjes bevatten naar de online kennisbank artikelen die zijn gebruikt.
+
+
+$Voorbereidingsfase※
+Ik verwacht dat over een periode van drie dagen ongeveer vijf en een half uur bezig te zijn.
+Op dat moment was het laat op de dag dus hou ik een marge van een uur aan.
+
+Ik baseer dit op de gedachten dat ik deze taak in de prototype van de BPV-taak heb uitgewerkt.
+Ik hoef dus die te gebruiken en een beetje aanpassen zodat het met het vernieuwde systeem kan werken. 
+
+
+$Keuzefase※
+Ik ga in gesprek met de klant waarbij ik de progressie van de afgelopen tijd probeer uit probeer te leggen van AIC-8.
+In dit gesprek kan ik ook de uitdagingen verklaren van deze taak.
+Ik doe dan zelf twee suggesties voor oplossingen,
+maar wil wel de mogelijkheid openhouden voor andere suggesties.
+
+Een van de suggesties is om het zo te laten.
+Het is niet echt een oplossing,
+maar ik kan de chatbot zo maken dat het niet breekt.
+Op basis van de vraag is er wel verschil in hoe erg de antwoorden hallucinaties bevatten.
+Je kan dan wel andere soorten vragen stellen wat ik de klant wel eens heb zien doen.
+
+Een andere oplossing is het maken van een drop-down.
+Deze worden bij het inladen van de pagina geladen met de naam van iedere kennisbank die er op dat moment is.
+De gebruiker kan dan selecteren over welk product de vraag gaat.
+Hierdoor kan je zo precies zoeken als het inladen van tickets,
+maar dit zorgt voor een extra knop wat er voor zorgt dat de chatbot druk over komt.
+Daarbij kan je niet makkelijk een ander soort vraag stellen.
+
+Ik heb dit vervolgens ook besproken met Sander en hij kwam met de suggestie om op alle artikelen te zoeken van alle producten.
+Hierdoor kan je een relevante artikelen krijgen,
+maar wellicht zijn die artikelen van het verkeerde product.
+
+Na een tijdje te overleggen is er gekozen voor een drop-down systeem.
+Daarbij word er ook een extra optie toegevoegd die een standard waarde is,
+namelijk "none".
+Deze waarde zorgt dat de applicatie in staat is om andere type vragen te kunnen beantwoorden.
+
+
+$Uitvoeringsfase + Presentatiefase※
+De uitvoeringsfase ging in het algemeen zoals gewoonlijk.
+Het enigste wat anders ging was zoals in andere story's in de Definitiefase besproken,
+maar wat daadwerkelijke anders was is dat we tegen een bug opliepen wat zorgde dat er een keuzefase kwam voor deze story.
+Aangezien de oplossing ook heel erg kon ervaren door de gebruiker wil ik dat de klant besluit op welke manier de bug verholpen word.
+
+Het Presenteren daar in tegen word in AIC-2 gedaan.
+Dit is namelijk een taak en ik kan progressie laten zien aan de klant,
+maar de daadwerkelijke presentatie is met een Demo om de andere vrijdag.
+Het is ook logischer om het als AIC-2 te presenteren aangezien de taken AIC-6 en AIC-8 in combinatie met deze taak gepresenteerd moeten worden.
+
+De story van AIC-2 is namelijk onafhankelijk van andere story's,
+maar overdeelt over meerdere taken die in theorie los van elkaar kunnen werken.
+In praktijk kan dat vaak genoeg ook,
+maar nog vaker zijn ze te afhankelijk van elkaar aangezien er niets is wat dat opvangt.
+Kortom deze taken zijn in de praktijk heel erg afhankelijk van elkaar.
+Om die reden presenteer ik die onder AIC-2.
+
+$Evaluatiefase※
+Ik heb de tijd flink verkeerd ingeschat.
+Ik was bij het primaire gebruik ongeveer één dagdeel langer bezig.
+Dit heeft het resultaat dat ik tot dat moment ongeveer tien uur gespendeerd heb.
+Verder heb ik ongeveer zestig procent van de tijd gespendeerd aan het testen en het uitwerken van meerdere bug fixes.
+Hierdoor heb ik ongeveer vijfentwintig uur gespendeerd over een periode van meerdere weken.
+
+Als je het aan mij vraagt had dit minder kunnen zijn als ik twee tot drie dagen strak achter elkaar aan ging werken.
+Dit is gelijk aan vijftien tot tweeëntwintig en een half uur.
+
+Verder heb je waarschijnlijk gemerkt dat de Keuze fase na de Voorbereidingsfase heb geplaatst.
+Ook al heb ik dit aangekaart in de Uitvoeringsfase + Presentatiefase, maar vertel hier wat meer over.
+Het is namelijk zo dat ik eerst dacht alles duidelijk te hebben.
+Ik had daarbij het meeste ook in de algemene prototype uitgewerkt.
+Ik hoefde alleen nog zo maken dat de chatbot met behulp van Whoosh de artikelen en de URL's op kon halen,
+maar de secundaire zoek manier veroorzaakte een aantal bugs aangezien die niet gebauwd was voor het nieuwe zoek systeem.
+Om die bug ging de keuze fase over die dus tijdens de uitvoeringsfase plaats vond.
+Deze feature en bug fix is dan ook de enigste verandering in het originele plan.

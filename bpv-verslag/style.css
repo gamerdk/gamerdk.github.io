@@ -18,6 +18,9 @@ button {
     color: white;
     box-shadow: 0 10px 20px rgba(43, 36, 91, 0.75);
     transition: 1s;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 button:hover {
@@ -106,10 +109,12 @@ MARK: grid
 /*
 MARK: Logo
 */
-#logo {
+.logo {
     max-width: 5cm;
     max-height: 3cm;
     object-fit: contain;
     padding: 20px;
+}
+.invert{
     filter: invert();
 }

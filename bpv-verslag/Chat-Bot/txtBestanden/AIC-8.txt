@@ -1,0 +1,66 @@
+Definitiefase/Keuzefase※
+Een van de wensen van de klant over AIC-2 was dat de chatbot artikelen uit de kennisbank ging gebruiken.
+Om dat te kunnen moet de chatbot kennisbank artikelen ophalen.
+Dit is al mogelijk gemaakt in AIC-6,
+maar die worden nog niet gebruikt in de antwoorden.
+Dat word dus in AIC-8 mogelijk gemaakt.
+
+Verder merkte ik tijdens de Keuze/Ontwerpfase van het project dat de klant graag een lijstje wil hebben van artikelen.
+Dit is zodat de klant nog input heeft op welke artikelen worden gebruikt in het antwoord.
+De chatbot moet nog wel de meest relevante artikelen opzoeken en terug sturen naar de klant.
+
+Ook zou de klant op meer mogelijkheden invloed willen hebben op het zoekgedrag van de chatbot.
+De klant wil dit graag doen door middel van tags.
+Binnen Freshdesk kunnen ze tags toepassen die relevant zijn waar de chatbot op kan zoeken.
+
+Ik ben met Sander vervolgens gaan overleggen hoe we dit het beste toe kunnen passen.
+Mijn idee was om het bestaande systeem van de chatbot die vergelijkbare gesprekken op zoekt te gebruiken.
+Je kan dan de vraag vergelijken met de groep tags per artikel en kijken welke het meest overeen komen.
+De top tien kan je terug sturen naar de gebruiker.
+Sander wou liever een library gebruiken die nauwkeuriger helpt met zoeken en eenvoudiger is.
+We besloten uiteindelijk Whoosh te gebruiken.
+Ik moet dan wel extra tijd investeren om Whoosh te leren te begrijpen,
+maar dan krijgen we wel nauwkeuriger antwoorden in theorie.
+
+
+$Voorbereidingsfase/ontwerpfase※
+Tijdens deze fase ben ik alvast begonnen met het experimenteren met Whoosh en heb een simpele applicatie gemaakt die artikelen op kan zoeken.
+Ik kan wat ik heb geleerd toepassen en een deel wat ik in de prototype van het project gebruiken.
+Om deze redenen denk ik dat deze taak met één dagdeel klaar is.
+
+
+$Presentatiefase※
+Het presenteren gaat niet zo makkelijk.
+Ik kan dan wel AIC-6 visualiseren door te laten zien welke artikelen worden gekozen van een aantal tickets,
+maar ik kan geen antwoorden meer genereren.
+Dit is het resultaat van een te erg in elkaar verwikkelde functies.
+Als ik dus deze taak en AIC-6 zou presenteren op een demo om de andere vrijdag moet ik een feature publiceren die de applicatie breekt.
+Om die reden stel ik het uit en presenteer ik deze taak wanneer ik AIC-2 presenteer en daarbij als een deel van AIC-2 wat het ook is.
+Ik probeer dan wel om de laatste taak waardoor ik AIC-2 kan presenteren zo snel mogelijk af te hebben.
+
+Indien de klant op de hoogte wil zijn van de progressie kan ik de versie laten zien die niet online staat.
+Door deze demo één op één te houden is de klant dan op de hoogte en kan eventueel input geven op het product.
+Ook probeer ik uit te leggen over veranderingen die niet te zien zijn.
+Zoals de extra gebruik van OpenAI in kombinatie met Whoosh dat word beïnvloed door tags.
+
+
+$Evaluatiefase※
+Ik heb gedurende uitvoeringsfase het gevoel gehad dat ik me aan de tijd had gehouden,
+maar in werkelijkheid heb ik er drie dagen overgedaan totdat ik een pull request heb verstuurd.
+Dit gedeelte ging een stuk sneller dan verwacht aangezien ik die de dag erna goedkeuring had om te squashen en te mergen naar main.
+Ik was alleen dat laatste vergeten waardoor ik twee werkdagen later daadwerkelijk de taak had afgerond.
+
+Verder zijn de enigste veranderingen een aanpassing van AIC-6.
+Whoosh werkt namelijk met Whoosh index waar alles in word opgeslagen,
+dus ik heb dat toegevoegd en compatible gemaakt met dat systeem.
+Daarnaast worden de URL van de artikelen in de Whoosh index opgeslagen.
+Dit is aangezien het makkelijker om daar uit informatie op te halen.
+
+Een andere verandering van plan is dat we OpenAI gebruiken in het zoek proces.
+Het is namelijk zo dat je niet een lap tekst aan Whoosh kan geven en dan stuurt Whoosh een artikel terug of tags die er op lijken.
+Dit is namelijk hoe we origineel dachten dat Whoosh werkte.
+Daarom sturen we nu de tags van het geselecteerde product naar OpenAI samen met de vraag.
+Daar vragen we de meest relevante tags op en sturen dat naar Whoosh.
+
+Dit heeft wel weer geleid dat de lijst van lijsten aan tags per product omgezet moest worden naar de datatype Set voor elk product.
+Wat niet heel erg is aangezien je nu wel duidelijk kan lezen welke tags in welk product zitten voor test doeleinden.

@@ -1,0 +1,41 @@
+Oriëntatiefase/Definitiefase※
+Voor AIC-7 zou de klant graag een knop willen hebben die de gegenereerde tekst kan kopiëren.
+Het beste voorbeeld van deze functionaliteit die ik kon vinden is die van chat GPT.
+Daar hebben de gegenereerde antwoorden een aantal knoppen zoals de feedback en het voorlezen van het gegenereerde antwoord,
+maar ook een kopieer knop.
+Ook al ga ik niet na het genereren van ieder bericht die knop toevoegen.
+Ga ik wel die functionaliteit na maken.
+
+
+$Keuzefase※
+Er was een kleine dilemma over de opmaak.
+Aangezien de klant letterlijk naast mij zit kan ik hier over eenvoudig een gesprek starten.
+Ik heb onderzoek gedaan naar hoe ik de opmaak kan behouden van html in javascript op een simpele manier,
+maar zonder succes.
+Ik kan doorzoeken als de klant dat wil,
+maar als de opmaak niet uitmaakt kan ik veel simpeller deze story uitvoeren.
+Na met de klant gesproken te hebben is er besloten dat de opmaak niet nodig is.
+
+
+$Voorbereidingsfase※
+Ik heb regelmatig de taken en story's onderschat.
+Ik verwacht dan ook dat ik drie uur nodig heb voor de functionaliteit.
+Verder een extra uur om de stijl van de knop het zelfde te krijgen.
+Dit lijkt mij ruim genoeg,
+maar ik heb vaak genoeg een taak onderschat.
+Dus wellicht heb ik die tijd wel nodig.
+Verder verwacht ik niet dat ik het de week dat ik met de story begin het niet af krijg.
+Ik verwacht dit aangezien Sander dit moet beoordelen wat even kan duren,
+maar ik kan daar niet een exacte tijd voor inschatten.
+
+
+$Evaluatiefase※
+In theorie had ik het af binnen de tijd,
+maar Sander wou liever dat de opmaak er wel in bleef.
+Aangezien je de mail dan makkelijker kan lezen.
+Daarnaast had mijn oplossing één groot probleem en dat is dat de html tags mee gekopieerd werden.
+Uiteindelijk heeft Sander geholpen met een manier vinden,
+hoe ik de opmaak kan kopiëren op een eenvoudige manier.
+Hier was ik behoorlijk blij mee.
+Vooral omdat ik geen html tags meer mee kopieer.
+Hierdoor was ik uiteindelijk een anderhalf uur extra bezig om de story uit te werken.

@@ -1,0 +1,230 @@
+Oriëntatiefase※
+De klant is één van mijn stagebegeleiders Arjan.
+Hij is het hoofd van service desk die vooral werkt voor het product Autofox.
+Dit is één van de producten van Curious Inc waar ik verder op in ga in de <a href="/bpv-verslag/Bedrijfs-informatie/">bedrijf informatie</a>.
+Buiten Autofox helpt Arjan ook af en toe met het oplossen van ticket voor het product Dation.
+Verder heeft Arjan geen ervaring met een programeer taal of programmeren in het algemeen. 
+
+Ook is hij achtenvijftig jaar oud waardoor ik kan verwachten dat ik regelmatig rustiger aan moet doen zodat hij de situatie beter kan begrijpen.
+Daarnaast wil hij alles duidelijk per stap bespreken en ontwikkelen. 
+Hierdoor weet ik nog niet helemaal wat hij verder wil buiten de bug fix en de update voor het genereren van de antwoorden.
+
+Verder wil hij vooral functionaliteiten in de chatbot die OpenAI ook heeft, 
+maar je kan niet zomaar berichten van klanten en gehele databases naar open AI sturen
+aangezien er gevoelige informatie in kan zitten die je liever niet naar derden wilt sturen. 
+Daarnaast kan OpenAI antwoorden genereren die niet van toepassing zijn.
+
+
+$Definitiefase※
+De klant ervaart dat buiten de vaste mensen van de service desk bijna niemand support kan leveren op de service desk als een service desk medewerker weg valt.
+Vandaar dat hij graag een applicatie wilt hebben die snel antwoord kan vinden en een volledig antwoord genereren in de vorm van een mail,
+zodat zowel service desk als nieuw/ tijdelijk personeel er van kunnen profiteren.
+
+Helaas hebben de voorgaande studenten die aan de chatbot hebben gewerkt dit niet volledig behaald. 
+Dit komt aangezien de chatbot artikelen gebruikt die één keer in een document zijn geschreven.
+Hierdoor zijn de artikelen vaak niet relevant voor de vraag of verouderd.
+Ook wil de klant graag alles in kunnen laden zonder dat de applicatie in een soft Lock terecht komt.
+Denk hierbij aan allerlei soorten tickets zoals mails en chats,
+maar ook het proberen toe te passen op andere producten van Curious Inc.
+
+Verder merkte ik gedurende deze fase toen ik de code probeerde te begrijpen dat deze heel lastig te lezen is voor een developer die niet bekend is met de code,
+maar ook de klant had geen idee wat er ongeveer gebeurde op de achtergrond.
+
+Ik wil dit graag veranderen door regelmatig de klant op de hoogte te houden van de progressie.
+Hierdoor heeft de klant ook gelijk door wat er ongeveer op de achtergrond gebeurd en heeft de klant makkelijker door waar de dilemma over gaat.
+Ook is het de wens van het bedrijf om de applicatie meer uit elkaar te trekken om toekomstige developers en mij makkelijker te maken om de applicatie te begrijpen en te debuggen.
+
+
+$Ontwerpfase※
+Gedurende deze fase werk ik aan de prototype.
+Ook al realiseerde ik mij het op dat moment niet.
+
+Gedurende deze fase ben ik regelmatig in gesprek met de klant hoe deze features toegepast kunnen worden.
+Daarnaast laat ik dan een korte demo zien van wat ik tot dat punt geprogrammeerd heb.
+Op deze manier kan ik makkelijk een duidelijk beeld krijgen wat de klant exact wilt.
+Vooral omdat de klant niet de wensen gelijk wil delen,
+maar de volgende verandering doorgeeft als de vorige is uitgewerkt.
+Dit helpt wel heel erg in de communicatie,
+omdat we iets visueels hebben die we kunnen gebruiken in de gesprekken.
+Daarnaast kan het ook helpen uitdagingen en wensen beter uit te leggen.
+
+Door op deze manier te werken ben ik in staat om tijdens andere fases makkelijker te werken aan story's en taken.
+Dit komt aangezien ik een werkend voorbeeld heb met code.
+Daarnaast als er iets veranderd werd op basis van de logica.
+Heb ik een einddoel door de voorbeeld van de prototype.
+
+
+$Keuzefase※
+Gedurende Ontwerpfase ga ik in gesprek met de klant.
+Tijdens deze gesprekken bespreek ik uitdagingen en gaan we samen brainstormen,
+
+maar ik verwacht dat met de uitdagingen vooral uit komen te zien als: "dit is het probleem.
+Ik kan het op deze manier oplossen waar deze consequenties aan hangen,
+maar ik kan het ook de andere manier oplossen wat andere consequenties hebben op het product."
+
+
+
+Ik merk tijdens dit project dat er weinig is gedaan werd met de gegevens bescherming.
+Ik heb deze zorgen al gemeld toen ik met het ophalen van de gegevens van Freshdesk,
+maar realiseer mij op het moment dat ik dit schrijf dat die zorgen terecht waren,
+maar voor het verkeerde onderdeel.
+Bij de suggestie om minder gegevens van Freshdesk te halen zodat er niet per ongelijk wetten werden overtreden,
+is dus afgewezen aangezien de chatbot geen derden is,
+maar een tool dat binnen het bedrijf blijft. 
+Er is daadwerkelijk te weinig aandacht geweest voor gegevens bescherming naar derden.
+Het is namelijk zo dat de chatbot gebruik maakt van OpenAI die allerlei gegevens uit de berichten kan krijgen.
+Denk hierbij aan adressen, telefoon nummers en email adressen.
+Ik heb mijn zorgen hierover weer geuit naar mijn beide stagebegeleiders.
+Die vinden het allebei prima en heb story's voor gemaakt waar ik aan werk.
+
+Ik was ook bang dat ieder persoon die de website kon vinden bij klanten gegevens kon komen door de chatbot te gebruiken.
+Ook deze zorgen heb ik geuit bij mijn stagebegeleider,
+maar kwam tijdens dat gesprek al snel achter dat er een firewall is die er voor zorgt dat alleen personeel bij de chatbot kan.
+
+Verder weet ik dat mijn tijd bij dit bedrijf niet lang meer duurt.
+Ik zou graag willen dat er informatie door gegeven kan worden zonder dat een persoon het hoeft uit te leggen.
+Dit is vooral in de situatie dat iedereen die weet hoe de chatbot werkt er niet is.
+Deze situatie is al meerdere malen bijna voorgekomen en bij vragen zou de gebruiker bij niemand terecht kunnen komen.
+Mijn suggestie is dan ook om een soort handleiding te maken.
+
+$Voorbereidingsfase※
+Ik heb een applicatie nodig waarmee ik kan programmeren in python.
+Hier gebruik ik primair Visual studio code voor.
+
+Verder gebruik ik de online versie van GitHub voor de pull requests.
+Dit is de wens van het bedrijf.
+
+Natuurlijk gebruik ik GitHub Desktop om code te versturen en op te halen van GitHub.
+
+Andere software dat ik gebruik is Onstage om de uren te noteren.
+
+Ook gebruik ik Jira om alle story's op te schrijven.
+Deze story's worden daarin genoteerd als AIC-(nummer van story).
+Deze naamgeving word gedurende het project gebruikt voor de namen van branches en documentatie.
+Hierdoor weet iedereen die aan het project werkt over welke story het gaat.
+
+Ik gebruik een fysiek USB-stick waar alle bestanden van GitHub in opgeslagen worden zodat ik geen bestand van de chatbot op de laptop heb staan en makkelijk werk en privé gescheiden kan houden.
+
+Ik gebruik mijn laptop om op te programmeren, maar heb toegang tot apparatuur van het bedrijf om mij in het proces verder te helpen.
+Dit is eigenlijk alleen extra monitoren.
+
+Verder verwachte ik gedurende de Ontwerpfase dat de prototype met enkele weken klaar zou zijn.
+Door deze verwachting verwacht ik met het totale project ook niet veel langer zal duren en met één tot twee maanden klaar ben met het project.
+
+
+$Uitvoeringsfase※
+Om te beginnen is Florian de product owner van de chatbot.
+Dat is tenminste wat ik heb begrepen.
+Aangezien hij een developer is van het product Autofox zal ik niet veel met hem werken.
+Wel kan ik bij hem terecht voor vragen en feedback.
+Dit heb ik vooral gedaan als mijn andere stagebegeleider Sander er niet was.
+
+Sander heeft de wens om de structuur van de chatbot uit elkaar te trekken zodat die chatbot leesbaarder word en makkelijker om te debuggen.
+Verder ga ik tijdens mijn stage met vragen naar Sander toe en controleert hij de code door middel van pull request.
+Als Sander er niet is kan ik Florian voor die zaken benaderen zoals eerder vermeld.
+
+Voor deze stage heeft de klant een paar wensen om de chatbot te verbeteren.
+Om te beginnen word het ophalen van de kennisbank op de schop gegooid door deze één keer per dag op te halen.
+Dit moet de voorgaande versie van de kennisbank vervangen en worden de artikelen per product lokaal opgeslagen.
+Hierdoor kan er tijd worden bespaart in het ophalen terwijl de resultaten relevant blijven.
+
+Verder stuurt de chatbot de meest relevante artikelen terug gestuurd op verzoek van de klant.
+Dit is om te zorgen dat de artikelen relevanter en dus de informatie accurater worden.
+Dat willen we weer waar maken door de klant de artikelen te laten selecteren voordat wij de vraag in kombinatie met de artikelen naar OpenAi sturen om een accuraat antwoord te generen.
+
+Tot slot moet het antwoord een URL naar de kennisbank bevatten zodat de persoon die geholpen word daar ook zelf het probleem op kunnen lossen in de toekomst.
+
+Alle veranderingen worden verdeeld over meerdere story's.
+Deze story's worden genoteerd in Jira.
+Daarnaast worden per story ook de wensen en vereisten voor de story genoteerd.
+In Jira word ook gecommuniceerd wie met wat bezig is en in welke fase de story is.
+De fases van het bedrijf zijn Nog Doen, Actief, Review, Test Feedback en Gereed.
+
+Gedurende het project ga ik iedere week met Sander in gesprek over de chatbot,
+maar ook buiten deze wekelijkse gesprekken chat ik met Sander op Teams.
+
+In deze gesprekken hebben we het over uitdagingen en manieren om een functionaliteit uit te werken.
+Vooral dat laatste zorgt er voor dat de code aan de eisen van het bedrijf voldoet in combinatie met de pull requests.
+
+Ik stuur een pull requests als ik denk dat de taak klaar is. 
+Daarbij zet ik de taak of story op review.
+Hierop kan Sander feedback geven om het product aan de eisen van het bedrijf te laten voldoen.
+Als de pull request aan de eisen voldoet en er geen bugs in zitten kan Sander de pull request de accepteren.
+Hierdoor kan ik de branch van de taak squashen en mergen met Main.
+Op dat moment kan de story gepubliceerd worden.
+Gebaseerd op de story kan de story op Test Feedback belanden.
+Dan gaat de klant nog een controle doen of de story naar wens is uitgevoerd voordat het op Gereed word gezet.
+De klant doet dit op de gepubliceerde versie.
+Als alles naar wens is word het op gereed gezet.
+Indien het niet naar wens is word er een story gemaakt met als doel het ongemak op te lossen.
+
+
+$Presentatiefase※
+Om de andere vrijdag om drie uur s'middags is er een demo.
+
+Tijdens deze demo laat het development teams voor ieder product de features zien die af zijn en ze de afgelopen sprint aan hebben gewerkt.
+
+Aangezien de meeste mensen binnen het bedrijf er daar dan zijn presenteer ik dan features die gepubliceerd zijn de afgelopen sprint.
+Denk hierbij aan Product owners van verschillende producten,
+maar ook de software developer's van de verschillende producten en ook de Service Desk medewerkers waarvoor ik dit product verbeter. 
+
+Deze Demo's gebeuren allemaal in het Engels voor de mensen binnen het bedrijf die geen of lastig Nederlands kunnen verstaan.
+Veder worden de Demo's voor iedereen op zijn of haar werkplek gehouden via een Teams meeting.
+
+Tijdens de meeting hebben alleen de mensen die wat vertellen of vragen de microfoon aan hebben om dubbele stemmen te voorkomen en ander achtergrond geluid.
+
+$Evaluatiefase※
+Ik had gedacht dat ik na een maand of twee kon helpen op de service desk met de chatbot.
+Dat is totaal verkeerd ingeschat.
+Het is namelijk zo dat wanneer ik dit gedeelte schrijf dit verslag aan het afronden ben en nog één week stage heb.
+En nog steeds ben ik bezig met dit project.
+Ik ben op dit punt nog steeds bezig het project af te ronden.
+Dit komt omdat AIC-13, een bug fix en een update van AIC-10 nog open staan in de pull request.
+Ik heb hierdoor de service desk niet meer steun kunnen leveren dan het maken van deze chatbot.
+
+Verder heb ik achteraf ook extra hardware gebruikt van het bedrijf.
+Het is namelijk zo dat ik een week de werk laptop van mijn stagebegeleider Sander heb gebruikt.
+Dit komt omdat mijn laptop gerepareerd moest worden sinds de scharnier van de laptop de behuizing uit elkaar trok.
+Dit heeft op het moment van schrijven achteraf niet veel geholpen,
+maar kan er nu nog mee werken.
+Het is namelijk niet zo erg als toen.
+Ook al moet er denk ik nog een keer naar gekeken worden binnenkort wat wel jammer is.
+
+Naast de hardware die ik heb gebruikt heb ik ook Pycharm een tijdje gebruikt.
+Het is namelijk zo dat ik op dat moment met html + javascript bezig was en python.
+Ik kon dan in Pycharm in python programmeren en de hulp middelen gebruiken.
+Dan kon ik in Visual Studio Code HTML, CSS en Javascript code schrijven samen met de hulp middelen zonder dat die met de hulpmiddelen van python in de weg zitten.
+
+Ik heb nu de extra hardware en software verklaard, 
+maar niet de extra tijd wat twee maanden is.
+Dit komt om te beginnen dat ik voor de meeste story's de tijd verkeerd had ingeschat.
+Daarnaast had ik geen rekening gehouden met taken van school.
+Ja ik heb gedurende het project de fases in Excel opgeschreven voor iedere story die hier in het verslag staan,
+maar had tijdens de Voorbereidingsfase geen rekening gehouden met dit verslag of de terugkom dag.
+Sterker nog ik had rekening gehouden dat ik iedere dag van negen uur tot en met vijf uur op kantoor zou zijn met uitzondering van het weekend.
+
+Ook had Arjan tijdens de uitvoering fase een paar suggesties voor kleinere features.
+Deze features zijn AIC-5 en AIC7.
+Buiten de extra wensen van de klant heb ik zelf ook een paar story's toegevoegd.
+Hier ga ik in AIC-10 en AIC-13 verder op in.
+
+Ik was dus ook tevreden toen ik een maand later klaar was.
+Wat binnen één dag alweer duidelijk was dat het niet het geval was aangezien ik twee niet genoteerde bugs moest verhelpen die door waren gekomen.
+Ook heb ik twaalf story's aangemaakt in de week daarop waar tien bestaan uit meerdere bug fixes.
+Er is ook een story voor de update van de censuur.
+Dit moet zorgen dat de gegevens die naar derden word verstuurd beperkt is of gecensureerd.
+
+Ik wil wel melden dat ik tevreden ben met mijn bijdrage aan de chatbot,
+maar merk wel dat ik meer rust moet gaan pakken.
+Ik merk dat ik meer tijd nodig heb om ook maar iets te formuleren.
+Dit is zowel teksten schrijven,
+maar ook daadwerkelijk met mensen praten.
+
+Daarnaast raak ik sneller afgeleid of zoek ik iets anders dat ik kan doen om het uit te stellen.
+Eerder deze stage kon ik met bepaalde prikkels makkelijk werken,
+maar die zelfde prikkels houden mij op dit moment heel erg van het werk af.
+Om die reden ben ik de afgelopen weken bewuster bezig met welke prikkels ik toe laat.
+Ik vermoed dat deze verandering komt aangezien dit het einde van het schooljaar is.
+Rond deze tijd ervaar ik dat de focus sneller naar iets anders gaat.
+Tenzij ik voldoende druk ervaar en op werk locatie de taak uitvoer.
+Ik moet wel zeggen dat ik vorig jaar toen ik dit ervaarde ook indirect mijn omgeving heel erg prikkel arm maakte.

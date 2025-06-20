@@ -1,0 +1,38 @@
+Definitiefase※
+AIC-4 is een refactor. Dit betekend dat de applicatie word opgesplitst in meerdere componenten.
+Deze story is een verzoek van Sander, om de hoeveelheid merge-conflicten te verminderen,
+maar ook om de code makkelijker te kunnen debuggen en lezen.
+Dit wil hij graag doen door de applicatie op te splitsen over verschillende libraries.
+
+$Voorbereidingsfase※
+Aangezien ik maar enkele functies zou moeten verplaatsen over verschillende libraries,
+denk ik ongeveer twee uur bezig te zijn. Ik ben van plan om op zesentwintig maart hier aan te werken.
+
+$Presentatiefase※
+Deze story is ontzettend lastig te presenteren.
+Daarom presenteer ik deze story niet met een demo.
+Ik merk wel dat de klant Arjan behoefte heeft om op de hoogte gehouden te worden van de progressie.
+Ik doe dan ook mijn best om uit te leggen waar ik aan werk en waarom dat nodig is.
+
+$Evaluatiefase※
+Ik heb veel langer gewerkt aan deze story dan oorspronkelijk verwacht.
+Dit komt vooral omdat Sander de applicatie wou opsplitsen met het MVC-ontwerppatroon.
+Dat houd in dat er een modellen, een view en een controller is.
+Deze onderdelen weten niet van elkaar af of weten niet wat er daar gebeurd.
+Het weet alleen wat die zelf doet.
+Dat betekend dat de view wat de website is die de gebruiker ziet een API call stuurt en wat ontvangt.
+Hij weet niet exact wie of wat de ontvanger is en wat er gebeurd.
+Het enigste wat de view weet is dat die bepaalde gegevens verstuurd en iets ontvangt.
+De controller ontvangt die gegevens en stuurt de modellen aan met de gevraagde gegevens.
+De modellen weten meestal niet van elkaar bestaan af of wie hun de opdracht geeft.
+Die weten alleen wat ze ontvangen en verwerken die gegevens die ze terug sturen.
+De controller heeft tijdens dit proces geen idee gehad wat er in de modellen is gebeurd.
+Die weet alleen het resultaat en maakt een pakketje die hij terug stuurt naar de view.
+De view visualiseert vervolgens de data.
+
+Met dit proces was ik niet bekend.
+Nu ik terug kijk deed ik dat wel soms,
+maar meestal waren de modellen, view en/of controller direct met elkaar verweven.
+Net zoals deze chatbot voor dat ik hier aan ging werken.
+Dit betekend dat ik de applicatie meerdere malen opnieuw moest opsplitsen.
+Er werden later ook libraries toegevoegd op verzoek van Sander zodat de applicatie verder opgesplitst werd voor een nog steviger basis.

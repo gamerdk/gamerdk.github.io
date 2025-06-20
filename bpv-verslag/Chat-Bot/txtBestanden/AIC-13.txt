@@ -1,0 +1,84 @@
+Oriëntatiefase + Definitiefase※
+In AIC-13 moet er een handleiding pagina komen in de chatbot.
+Deze story kwam ik op en heb ik gesuggereerd.
+Ik kwam met dit voorstel toen de realisatie kwam dat ik met ietsjes meer dan een maand weg ging.
+Daarnaast had ik AIC-2 en AIC-10 net afgerond en keek naar wat er nog gedaan moest worden.
+Ik ben heb de suggestie gedaan bij de klant toen ik met hem in gesprek ging over AIC-2 en AIC-10.
+Dit gesprek was er vooral aangezien hij mij nog een keer wou spreken met betrekking tot die story's.
+
+Ik had het idee om iets zoals een kennisbank of handleiding te maken,
+maar dan voor de chatbot en een pagina daar op gefocust.
+Het is namelijk zo dat ik snel genoeg niet meer bij dit bedrijf stage loop.
+Als Sander, Arjan of Florian er niet zijn kan niemand de gebruiker helpen.
+Tenzij een van de andere developer's meer moeite doet om de applicatie te begrijpen om de gebruiker te helpen bij de vraag.
+Nu kan ik dat nog makkelijk doen aangezien ik de ins en outs van de applicatie ken.
+Door deze story zou in theorie de chatbot dat zelf moeten kunnen doen.
+Dat betekend dat de inhoud makkelijk te begrijpen moet zijn met foto's ter ondersteuning.
+
+
+$Keuze/Ontwerpfase※
+Ik heb de story als een suggestie gepresenteerd voor als ik of Sander er niet op dat moment of niet meer is om uit te leggen hoe de chatbot werkt.
+Hier was de klant mee eens en hebben dus besloten om de story verder uit te werken.
+
+Er was verder nog een idee hoe de pagina eruit zou moeten zien.
+Ik kan iets maken zoals de <a href="https://help.dation.nl/support/solutions">Dation kennisbank</a>.
+Dat is overzichtelijk voor de gebruiker als die weet waar die moet zoeken.
+
+Ik kan ook iets maken waar je één pagina hebt met aan de zijkant een menu.
+Een voorbeeld van een documentatie die dat doet is die van Bootstrap en <a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview">C#</a>.
+Je kan op die manier ook makkelijk met knoppen combinatie ctrl + f zoeken op bepaalde woorden door de pagina.
+Het grootste uitdaging is denk ik het mogelijk maken dat het klikken op één van de snel koppelingen de gebruiker direct naar de bijbehorende artikel brengt,
+maar dat lijkt mij juist weer een leuke uitdaging.
+
+Aangezien de klant Arjan niet op kantoor is,
+maar in het buitenland stuur ik deze voorstellen met voorbeelden via een chat.
+Ik maak ook een voorbeeld pagina met dummy teksten en plaatjes die de kennisbank representeert.
+Hieruit blijkt dat de klant het simpel wil houden aangezien het intern gebruikt word.
+Het meest simpele en overzichtelijke manier is dan ook het systeem van de <a href="https://help.dation.nl/support/solutions">Dation kennisbank</a>.
+
+
+
+$Voorbereidingsfase※
+Ik denk dat ik de donderdag en vrijdag die week mee bezig.
+Ik ga ook nog op het moment dat ik deze onderdeel origineel heb geschreven voorbereidingen treffen.
+Ik kan ook de woensdag die week mee bezig gaan,
+maar verwacht er niet veel van aangezien er dan een kwartaal meeting is met al het personeel binnen Curiuos Inc.
+
+
+$Presentatiefase※
+Dit is het enigste onderdeel wat daadwerkelijk niet gepresenteerd word ondanks dat het eenvoudig is om te doen.
+Het is namelijk zo dat op het punt dat ik dit schrijf de laatste week van mijn stage in is gegaan.
+De eerste de beste demo is de week daarop wanneer ik niet meer stage loop bij dit bedrijf.
+Natuurlijk is dat wel mogelijk als Curious Inc. graag wil zien dat ik een tijdje door werk,
+maar ik denk dat het beter is om daar niet van uit te gaan voor dit verslag.
+
+$Evaluatiefase※
+Laten we beginnen met dat ik de tijd flink verkeerd heb ingeschat van te voren.
+Ondanks dat ik niet weet hoe lang het nog duurt om deze story af te ronden.
+Is dit zeker aangezien ik in de voorbereiding fase had gedacht nu al klaar te zijn.
+Op het moment dat ik dit schrijf is het de laatste week van mijn stage.
+Dit is ongeveer een maand later dan verwacht.
+Ik vind het dan ook vreemd om deze fase in te vullen voordat de story is afgerond.
+Zelfs nu er een pull request is gemaakt voor de story.
+
+Tijdens dit project begon ik wel het vermoeden te krijgen dat ik de story niet op tijd af zou krijgen.
+Om die reden heb ik geprobeerd de story zo simpel mogelijk te maken.
+Hierdoor zou een andere developer makkelijker verder kunnen werken aan de story.
+Ik gebruik templates voor de verschillende pagina's.
+Hierdoor kan je door middel van een URL en een naam van de documenten die de pagina nodig heeft een nieuwe pagina maken.
+Ook heb ik het mogelijk gemaakt om tussen verschillende talen te kunnen kiezen wat voor nu Nederlands en Engels is.
+Ik kan me namelijk wel voorstellen dat je één van die twee talen niet kan verstaan of lezen.
+Om die reden heb ik de twee meest populaire talen in Nederland gebruikt.
+Hierdoor is de chatbot toegankelijker voor iedereen binnen dit bedrijf.
+
+Nu de veranderingen zijn behandeld laten we het hebben waarom ik de tijd verkeerd had ingeschat.
+In het verleden heb ik het wel eens voor elkaar gekregen om behoorlijk veel teksten te schrijven in een week tijd.
+Aangezien dit een stuk minder was dat ik wou schrijven.
+Dacht ik dat het mogelijk was binnen de tijd,
+maar de afgelopen maand bleek het tegendeel waar te zijn.
+Ik begon namelijk het lastig te vinden om teksten te schrijven.
+Hierdoor schreef ik een enkele keer meerdere pagina's per dag,
+maar meestal een pagina per dag als ik die af kreeg.
+Die teksten waren niet groot wat maakt dat ik dit heel erg jammer vind.
+Later kwam ik ook tot de realisatie dat ik een week minder tijd had dan gedacht.
+Hierdoor heb ik meer tijd ingeleverd voor mijn verslag.

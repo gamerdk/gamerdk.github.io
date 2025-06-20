@@ -1,0 +1,35 @@
+Definitiefase/Keuzefase※
+AIC-5 houd in dat eerdere berichten geleegd moeten worden.
+Het is namelijk zo dat de klant zich wel eens frustreert aan de conversaties die zijn opgeslagen in de console.
+Hij kan de pagina verversen en dan is die weer leeg,
+maar hij zou graag dit meer geautomatiseerd willen hebben.
+
+Dit willen we doen door de console te legen bij het inladen van nieuwe vragen en tickets.
+Daarnaast wil Arjan niet dat de geschiedenis geleegd word.
+Verder denkt ik dat je in staat bent om meerdere vragen tegelijk te laden als je snel genoeg bent.
+Dit lijk mij niet de bedoeling en daarom wil dat die mogelijkheid er niet is.
+
+Ik had ook nog een idee om de vorige vraag alsnog te laten onthouden en het mogelijk maken om weer te gebruiken voor als je die per ongelijk een nieuwe vraag stelt en de oude berichten nog wil hebben,
+maar daar hebben we al een history pagina voor.
+Daarnaast kan het onoverzichtelijk maken wat het hele idee van de story teniet laat doen.
+Er was ook nog een idee om voor de search knop toch maar niet te "fixen" en alsnog tijdens het laden op de knop te kunnen drukken.
+Dit komt omdat het de gebruiker de applicatie uit een soft Lock kan halen,
+maar als je alle fouten in functies goed op kan vangen hoor je niet in een soft Lock te komen.
+Dus ga ik dat ook gelijk fixen.
+
+$Voorbereidingsfase※
+Ik moet een grondige onderzoek doen aan de javascript code.
+Het is namelijk zo dat de keren dat ik aan javascript heb gewerkt een heel klein stukje code is.
+Die code kan ik nog vinden met behulp van de informatie in app.py.
+Deze keer moet ik wat meer begrijpen van de javascript code om zeker te zijn dat ik niet aan het verkeerde zit.
+Ik schat hier drie uur in.
+Daarna denk ik ongeveer een half uur tot een uur bezig te zijn met de logica en de code.
+Dat betekent dat ik dan een halve werkdag bezig ben aan deze story, van uit gaande dat Sander dit in één keer goed keurt. 
+
+$Evaluatiefase※
+Deze story is een van de weinigen die exact volgens plan gingen.
+Ik had alleen de uren calculatie flink overschat.
+Ik kan niet terug vinden of herinneren hoe lang ik per onderdeel exact mee bezig was,
+maar had de feature binnen één uur klaar.
+Ook had Sander de pull request die woensdag of donderdag geaccepteerd.
+Dit is het meest soepele proces en story die ik tot nu toe heb gehad.

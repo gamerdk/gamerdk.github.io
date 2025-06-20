@@ -1,0 +1,186 @@
+Python libraries※
+Smart leerdoel: Aan het einde van mijn stage wil ik bekend zijn met python libraries.
+Dit doe ik door een applicatie te maken waarin ik meerdere libraries gebruik.
+Verder ga ik gedurende het project steeds vaker en bewuster op zoek naar libraries die de applicatie kunnen verbeteren.
+
+Python libraries vind ik het meest pittige van alle leerdoelen.
+Niet om me in te verdiepen aangezien ik een aantal libraries heb gebruikt,
+maar eerder omdat dit het meest moeilijke onderdeel is voor mij om op één plek het proberen te bewijzen.
+Toch ga ik het proberen door te beginnen met het uitleggen hoe ik python libraries maak.
+
+Als je het verslag van de chatbot al hebt gelezen heb ik er al een paar keer over gehad.
+Je kan namelijk het maken van een python library vergelijken met het maken van een script.
+Je kan er één of meerdere classes in zetten en in python geval soms geen,
+maar wel functies die je kan aanroepen.
+Je kan er alleen niet zo makkelijk bij zoals in C#.
+Je moet namelijk dat script met pad in je python script importeren die hem rund,
+maar in plaats van de slash gebruiken tussen elke bestand of folder word die vervangen met een punt.
+Daarnaast noteer je niet de type van het bestand dat je importeert,
+alleen de naam.
+
+Nu ik dit schrijf heb ik het idee dat dit in C# ook word gedaan alleen importeer je het niet,
+maar gebruik je die library die al op de device staat.
+Dit is een deel hoe ik de applicatie heb opgesplitst in AIC-4
+Lees mijn verslag van de chatbot voor meer informatie daar over.
+
+
+Verder kan je libraries importeren van anderen.
+Een deel staat al op de computer als je python installeert.
+Dit ben ik al enigszins gewend door met C# te gebruiken.
+Wat ik niet gewend ben is om een library van het internet te halen en die te installeren.
+Normaal doe ik dat met packages in C# Unity,
+maar in python doe je dat met pip install voor één a twee libraries.
+Als je dan in het project de terminal opent en typt pip install gevolgd door de naam van de library runt installeer je die library.
+Indien je meer dan twee libraries wilt installeren je dat met behulp van een requirements.txt.
+Je opent dan weer de terminal op de zelfde plek en type je ook pip install,
+maar in plaats van de naam van de library type je -r requirements.txt.
+
+$Api calls※
+Smart leerdoel: Aan het einde van mijn stage wil ik systeem maken die door middel van api calls met een ander device/ server kan communiceren.
+
+Ook al heb ik de chatbot niet gemaakt aangezien het al bestond met api calls.
+Heb ik deze wel verbeterd en moest ik mij verdiepen in mijn leerdoel om de verbeteringen te maken.
+De chatbot bestaat namelijk uit een client en een server side.
+Dit noemen we de fornt-end en de back-end.
+De gebruiker haalt wel de front-end op door een request te doen naar de back-end door de server op te zoeken in de brauwser,
+maar dat is uiteindelijk ongeveer het zelfde als een api call sturen van een ander script of applicatie.
+
+Ook al heb ik niet heel erg veel verdiept op flask.
+Begrijp ik wel dat de with app.app_context flask aan zet.
+Ik begrijp ook dat met behulp van api calls kan iedere functie met een @app.route gerund kan worden.
+Die kunnen daarna weer andere functies aanroepen en een waarde terug sturen.
+Daarnaast kan je ook in de url variabele ontvangen.
+Dit doen we meestal door tussen of na de slash karakter de volgende notatie te gebruiken: &lt;datatype:variabele_naam&gt.
+Vervolgens moet de functie die aangeroepen word deze variabele naam hebben om hem te ontvangen.
+Hierdoor kan je in de url een waarde meegeven aan een functie.
+
+Buiten Flask die api calls beantwoord stuurt de chatbot zelf ook api calls.
+Dit doet de applicatie door de requests library.
+Meestal werkt het al als je requests.get(url) gebruikt,
+maar je kan ook meerdere extra parameters mee geven zoals data en headers.
+In de gevallen dat in de chatbot word gebruikt moet er een parameter mee geven worden genaamt auth.
+Dit is eigenlijk een soort beveiliging van wat ik begreep met een api_key voor identificatie dat het voor Curious inc is en een wachtwoord. 
+Als resultaat krijg je een class waar informatie in zit zoals status code en content.
+Deze twee worden in de chatbot gebruikt.
+Status code zegt wat voor resultaat het is.
+Als de status code 200 is heeft de applicatie wat terug gekregen in de content.
+Gebasseerd op de inhoud kan deze via json.loads uitgelezen worden waardoor de inhoud gebruikt kan worden,
+maar ik heb ook voor een test een geval gehad dat de json.loads niet werkte.
+Je krijgt zo ver ik weet wel altijd een string terug,
+alleen is het dus niet zeker of het een json string is of niet.
+
+Iets anders wat we ook gebruiken is fetch van javascript.
+Daarmee kan je een bestand binnen het project op halen,
+maar ook een api call doen naar een andere server of device.
+Je kan daarbij extra informatie mee geven.
+Dit word gedaan in een dictionary als een tweede variabele.
+Een voorbeeld van die extra informatie die binnen het project word gebruikt is onder andere methods.
+Die bepalen de type verzoek zoals POST en GET.
+Een ander voorbeeld is een body waar je de informatie in kan zetten die je meestuurt.
+Dan hoef je die niet in de url mee geven.
+Binnen het prodcut word dit gebruikt om grotere hoeveelheden informatie en informatie die de gebruiker niet hoeft te zien te versturen naar de chatbot.
+Als de code voor de api call is gerund kan de applicatie de resultaten opvangen in de .then.
+Hier schrijf je code die de ontvangen informatie kan gebruiken.
+Als de call is mislukt kan dat opgevangen worden in de .catch zodat de applicatie niet breekt.
+
+
+$Minder defensief reageren op feedback※
+Smart leerdoel: Aan het einde van de stage wil ik mijn reactie op feedback hebben verbeterd door minder defensief te reageren.
+Dit doe ik door bewust mijn eerste reactie te observeren en drie keer per week actief te oefenen met het stellen van een verduidelijkende vraag of het herhalen van de feedback voordat ik reageer.
+Mijn vooruitgang meet ik door minimaal twee keer feedback te vragen aan mijn begeleider over mijn reactie op zijn feedback.
+
+Ik kan deze leerdoel lastig bewijzen.
+Dit komt omdat er niet veel hard bewijs is,
+alleen wat collega's vertellen en mijn ervaringen.
+Ik wil daarbij wel melden dat over de leerdoelen tijdens de tussentijdse bespreking werden besproken.
+Daaruit bleek dat Sander mijn gedrag daarin herkende en verbetering zag.
+
+Daarnaast had ik afgelopen week nog een neiging om terug te vallen op oude gewoontes.
+Ik heb mijn best gedaan om dat niet te doen en te luisteren naar wat Sander voor feedback had.
+Hier heb ik laatst nog gevraagd hoe hij dit ervaarde.
+Ik dacht namelijk dat Sander de impressie heeft gekregen dat ik de code en de toenmalige versie van het stage verslag zat te verdedigen.
+Deze vermoeden kwam doordat mijn autistische brein zijn vragen letterlijk nam op een aantal momenten die niet zo bedoeld waren.
+Inmiddels heb ik een reactie van hem wat de volgende exacte woorden zijn.
+"   - Hier ben je in mijn ogen wel op vooruit gegaan. Ook sinds het tussentijdse gesprek. Je hebt nog wel progressie te maken op dit vlak, en blijf er vooral aan werken."
+
+Na dat het gesprek voorbij was ging ik de feedback uit werken en dacht ik veel na over het gesprek.
+Ik heb mijn ervaring ook met anderen besproken zonder al te diep op de inhoud te gaan.
+Deze stappen maak ik vaker op andere gebieden.
+In dit geval kon ik dan beter beoordelen hoe toepasselijk het feedback was.
+
+Ik hoef namelijk niet feedback toe te passen,
+maar het is wel verstandig om het idee erachter te verkennen en gehoor aan te geven.
+Als het dus niet helemaal van toepassing is. 
+Kan ik dat onderbouwen in een toekomstig gesprek en zelfs eventueel een alternatief voorstellen.
+In dit geval is dat niet zo en heeft het juist geholpen om een oplossing te vinden voor een andere uitdaging.
+
+$Verbale communicatie verbeteren※
+Smart leerdoel: Ik wil, tijdens de gehele stage, mijn verbale communicatie verbeteren door in gesprekken met collega's of klasgenoten duidelijker te spreken. Dit doe ik door minimaal drie keer per week actief te oefenen met het formuleren van mijn gedachten, bijvoorbeeld door samenvattingen te geven, en door feedback te vragen aan mijn docent of mentor.
+
+Tijdens de tussentijdse gesprek werd dit even besproken.
+Ik heb toen te horen gekregen dat ik toen al mijn doel had bereikt wat veel beter is dan toen gedacht.
+Mensen om mij heen merkten dat ik veel meer praat dan in de eerste weken.
+Om die reden heb ik een extra opdracht gekregen waar ik zo verder op in ga.
+
+Als ik namelijk terug kijk naar de afgelopen maand heb ik het idee dat ik nu op het andere eind zit.
+Ik merk dat ik af en toe een stuk negatiever over kom dan de bedoeling was als ik mijn gedachten formuleer.
+Dit heeft onderandere tot wat backlash in de vrienden groep gezorgd buiten stage.
+Ik vond het wel naar op dat moment, maar wou zo neutraal mogelijk dat onderwerp bespreken.
+Dit was niet gelukt en de frustratie kwam door als (wat ik geloof) kritiek ook al was dat niet de bedoeling.
+De reden dat ik denk wat maakt dat ik voorheen moeite had om mijn gedachten te vermuleren,
+komt omdat ik eerst scenario's in mijn hoofd door ging voordat ik wat zij.
+Deze waren nogal negatief dus besloot ik vaak om mijn mond te houden.
+Tegenwoordig bedenk ik soms van te voren, maar niet vaak een paar punten en probeer ik een gesprek te starten.
+Als ik eenmaal in gesprek ben met die persoon waarmee ik dat onderwerp wil bespreken kijk ik op dat moment wel hoe dat verder verloopt.
+Het klinkt waarschijnlijk niet alsof ik het beter doe,
+maar mijn theorie is dat de uitdaging van het formuleren van mijn gedachten komt uit het overdenken.
+Door te proberen minder te overdenken blijf ik meer bij de kern en praat ik makkelijker.
+Met als gevolg dat ik voor mijn idee mijn gedachten makkelijker kan formuleren.
+
+Eerder in dit hoofdstuk heb ik het gehad over een extra opdracht.
+Die houd in dat ik vooral moet observeren welke groepen of sociale eilandjes er zijn.
+Ook heeft iedereen een andere visie, maar vooral gedrag viel mij op.
+Het meest bijzondere is dat ik het groot en deels per rol kan verklaren,
+maar ook de omgeving waar je werkt.
+Ik moet daarbij wel melden dat dit mijn ervaringen zijn en het kan zo wezen dat dit toevallig plaats vond tijdens mijn stage,
+maar daarvoor niet normaal was of heb ik het verkeert begrepen.
+
+Het is namelijk zo dat developers ideeën hebben om de producten te verberen, maar ik zie dat zij ook het meest afvragen of je dat echt wilt.
+Service Desk horen vaak problemen en zijn daardoor het meest oneens met de development teams.
+Vooral omdat ze minder werk zouden hebben als de developers de applicatie "in één keer goed hadden gemaakt".
+Tegelijkertijd ervaar ik ook dat ze het behoorlijk vaak opnemen voor de developer.
+Dan heb je het sales team. Ik kan die verdelen in twee groepen.
+Een groep die ideeën hebben, maar niet veel of laten dat niet veel horen.
+Daarnaast weet ik niet waar ik ze verder moet indelen of hoe.
+Dan heb je een groepje die behoorlijk wat ideeën hebben, maar afhankelijk zijn van anderen om het uit te voeren.
+Zelfs als ze die zelf uit kunnen voeren moet iemand ze helpen door bijvoorbeeld knopen door te hakken.
+Daarnaast zijn de development teams over hun ideeën het meest sceptisch.
+Je hebt daarnaast ook ander personeel, maar ik kan niet veel meer zeggen dan dat ze hun werk gewoon goed doen.
+De product owners in die groep houden wel de meeste ideeën tegen aangezien klant één iets wil,
+maar klant twee vind het in de weg zitten.
+Je hebt ook nog Hans die regelmatig tegen gas nodig heeft van de development teams, servicedesk teams en product owners.
+
+Verder heb ik het idee dat over al het personeel drie groepen zijn.
+De constante kantoor mensen die meestal komen op kantoor om te werken en alleen thuis werken als ze last hebben van iets op kantoor of zichzelf.
+Dan heb je flexibele kantoor mensen waar ik geen patroon of logica kan vinden wanneer die op kantoor zijn.
+Die zijn er simpel weg wanneer die op kantoor zijn.
+De laatste groep is de groep die constant kantoor vermijden.
+Zij werken altijd vanuit huis en zijn alleen op kantoor tijdens evenementen zoals een kwartaal meeting.
+Zo ver ik weet kan ieder personeel kiezen om op kantoor of thuis te werken wat maakt dat dit opvalt.
+
+Er is nog iets hoe je het bedrijf op kan delen.
+Op kantoor heb je twee ruimtes deze ruimtes verdelen het bedrijf ook in groepen.
+Je hebt een development ruimte die vertrekken na vijf uur,
+maar wel meestal met tien minuten.
+De andere kant daarvan heb je personeel die voor vijf uur vertrekt of om exact vijf uur met uitzondering van mijn stagebegeleider Arjan en ik.
+
+De laatste groep die je kan zien binnen het bedrijf kan je herkennen aan wie er achterblijft om vrijdag vijf uur.
+Dat is standard de zelfde groep mensen als die dan op kantoor zijn.
+Deze mensen bestaan uit iedereen die in het development ruimte werkt.
+Deze groep leggen het werk vaak tussen half vier en half vijf het werk neer en beginnen alvast met de vrijdag middag borrel.
+De rest van die groep die niet in de development ruimte werken bestaat uit product owners die niet constant kantoor vermijden en service desk die niet constant kantoor vermijden.
+Die doen mee zodra ze klaar zijn met het werk wat meestal vijf uur betekent.
+Deze groep vertrekken ook met een paar uitzonderingen als laatste tijdens evenementen op het bedrijf.
+Daarnaast worden door deze groep meestal op dat soort momenten hindernissen en frustraties besproken,
+maar ook oplossingen daarvoor.
+Dit geld voor zowel buiten werk als de producten waar ze aan werken.

@@ -1,6 +1,9 @@
 function AddFrontPage(pageType, extraHTML = "") {
     frontPageString = `
-    <img class="position-absolute end-0" id="logo" src="/bpv-verslag/Images/Curious-Logo.webp" alt="curious-inc logo"> 
+    <div class="position-absolute end-0">
+        <img class="logo invert" src="/bpv-verslag/Images/Curious-Logo.webp" alt="curious-inc logo">
+        <img class="logo" src="https://opleiding.com/wp-content/uploads/opleider/roc-van-twente-900x0-c-default.png" alt="ROC van Twente logo"> 
+    </div>
     <div class="frond-page d-flex align-items-center justify-content-center">
         <div class="row-cols text-center">
             <h1 class="col p-1">Curious inc.</h1>
@@ -38,6 +41,7 @@ function FillHead() {
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/bpv-verslag/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
   `;
     const header = document.querySelector("head");
     header.innerHTML += head;

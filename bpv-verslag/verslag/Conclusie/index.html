@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <meta charset="UTF-8">
+  </head>
 
-<head>
-  <script src="/bpv-verslag/script.js"></script>
-</head>
+  <body>
+    <div class="base-page"></div>
+    <div>
+      <h1  class="m-4">Leerdoelen</h1>
+      <div class="d-flex flex-wrap justify-content-center tekst-vak">
+      </div>
+    </div>
+    <div>
+      <h1  class="m-4">BewijsLast</h1>
+      <div class="d-flex justify-content-center foto-vak">
+        <div class="bg-platform align-items-start">
+          <h1 class="d-flex justify-content-center">Libraries</h1>
+          <div class="d-flex flex-wrap">
+            <img src="Images/libraries-1.png">
+            <img src="Images/libraries-2.png">
+            <img src="Images/libraries-3.png">
+            <img src="Images/libraries-4.png">
+            <img src="Images/libraries-5.png">
+            <img src="Images/libraries-6.png">
+            <img src="Images/libraries-7.png">
+          </div>
+        </div>
+        <div class="bg-platform align-items-start">
+          <h1 class="d-flex justify-content-center">API</h1>
+          <div class="d-flex flex-wrap">
+            <img src="Images/API-1.png">
+            <img src="Images/API-2.png">
+            <img src="Images/API-3.png">
+            <img src="Images/API-4.png">
+            <img src="Images/API-5.png">
+            <img src="Images/API-6.png">
+            <img src="Images/API-7.png">
+            <img src="Images/API-8.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1  class="m-4">conclusie</h1>
+      <div class="d-flex flex-wrap justify-content-center tekst-vak">
+      </div>
+    </div>
+    <div>
+      <h1  class="m-4">slotwoord</h1>
+      <div class="d-flex flex-wrap justify-content-center tekst-vak">
+      </div>
+    </div>
+    <button class="m-4" onclick="ToPage('/bpv-verslag/verslag')">Terug naar vorige pagina</button>
+    
+    <script src="/bpv-verslag/script.js"></script>
+    <script src="/bpv-verslag/taken.js"></script>
+    <script>
+      AddFrontPage("Conclusie");
+      FillHead();
+      LoadArticels('leerdoelen', 0, 2);
+      LoadArticels('conclusie', 1, 2);
+      LoadArticels('slot-word', 2, 2);
 
-<body>
-  <div class="base-page"></div>
-  <div><h1>Conclusie</h1></div>
-  <div><h2>slotwoord</h2></div>
-  <button  onclick="ToPage('/bpv-verslag/verslag')">Terug naar vorige pagina</button>
-  <script>
-    AddFrontPage("Conclusie");
-    FillHead();
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
