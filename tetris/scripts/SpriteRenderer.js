@@ -75,7 +75,7 @@ export default class SpriteRenderer{
         textures['pause'].source.scaleMode = 'nearest';
         textures['title'].source.scaleMode = 'nearest';
 
-        this.LoadSprites(await Assets.load('sprites/SpriteSheet.png'));
+        this.LoadSprites(await Assets.load('sprites/Spritesheet.png'));
         spritesLoaded = true;
     }
 
