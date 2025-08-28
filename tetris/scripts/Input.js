@@ -1,6 +1,6 @@
 export default class InputManager {/*dit script is groot en deels van OpenAI en daarop verder gebauwd (de prompt was of het mogelijk was met Eventlisteners om in javascript de input.iskeydown van monogame na te kunnen maken )*/
     constructor() {
-        this.keys = {};
+        this.keys = {}; 
         this.lastKeyPressed = '';
         
         this.keyDownHandler = this.KeyDownHandler.bind(this);
